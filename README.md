@@ -6,6 +6,43 @@ A utility for randomly generating data, content, and assets for iOS & macOS apps
 [![License](https://img.shields.io/cocoapods/l/random-swift.svg?style=flat)](https://cocoapods.org/pods/random-swift)
 [![Platform](https://img.shields.io/cocoapods/p/random-swift.svg?style=flat)](https://cocoapods.org/pods/random-swift)
 
+## Requirements
+
+- iOS v11.0 or higher
+- macOS v10.15 or higher (mac catalyst)
+
+## Installation
+
+random-swift is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'random-swift'
+```
+
+## Import Options
+
+### Import into entire project
+
+Open `AppDelegate.swift`
+
+Add an exported import statement to the top of the class like so:
+
+```swift
+@_exported import random_swift
+```
+
+The framework is now accessible in every class in your project.
+
+**Note:** There are some [differing opinions](https://forums.swift.org/t/exported-and-fixing-import-visibility/9415) about `@_exported import`, namely, the risk of object and class [name collisions](https://stackoverflow.com/questions/25231650/swifts-standard-library-and-name-collision) between frameworks, however, if you don’t have any issues with the exported import approach in your project, you’re gonna be alright, and the convenience trade-off is probably worth it.
+
+### Import into class or file
+After installing, import into your class:
+
+```swift
+import random_swift
+```
+
 ## Usage
 Currently supported:
 
@@ -83,7 +120,13 @@ Currently supported:
 
 **Computed Properties**
 
-Note: computed properties are a little easier to use, but the require configuration to be in place beforehand. 
+- Get a random `Int`:
+
+	```swift
+	let randomInt = Random.int.value
+	```
+
+Note: The following computed properties require configuration to be in place beforehand. 
 
 These will always return 0 if:
 
@@ -91,12 +134,6 @@ These will always return 0 if:
 	- or by directly configuring `Random.intRange`.
 
 Usage is basically the same as a function call:
-
-- Get a random `Int`:
-
-	```swift
-	let randomInt = Random.int.value
-	```
 
 - Get a random `Int` below a given `IntRange` upper-bound limit:
 
@@ -127,7 +164,7 @@ Usage is basically the same as a function call:
 - Get a random percentage (aka `Double`) with optional max decimal place rounding:
 
 	```swift
-	let randomInt = Random.percentage.value(roundedTo: 5)
+	let randomPct = Random.percentage.value(roundedTo: 5)
 	// returns percentage with no more than 5 place values
 	// e.g. 0.45369
 	```
@@ -137,10 +174,10 @@ Usage is basically the same as a function call:
 	```swift
 	// setup a range
 	let range = PercentageRange(lower: 0.10, upper: 0.999)
-	
+
 	// get a random int value within the range
-	let rangedInt = Random.percentage.withUpperLimit(of: range, maxDecimalPlaces: 3)
-	// returns percentage with no more than 3 place values
+	let rangedPct: Double = Random.percentage.withUpperLimit(of: range, maxDecimalPlaces: 3)
+	// returns percentage with no more than 3 decimal places
 	// e.g. 0.294
 	```
 
@@ -148,91 +185,53 @@ Usage is basically the same as a function call:
 
 	```swift
 	// setup a range
-	let range = IntRange(lower: 10, upper: 250)
+	let range = PercentageRange(lower: 0.15, upper: 0.322)
 	
 	// get a random int value between range.lower and range.upper
-	let randomWithinRange: Int = Random.int.withinRange(range: newIntRange)
+	let randomPctWithinRange: Double = Random.percentage.withinRange(range, maxDecimalPlaces: 1)
+	// returns percentage with no more than 1 decimal place
+	// e.g. 0.6
 	```
 
 **Computed Properties**
 
-Note: computed properties are a little easier to use, but the require configuration to be in place beforehand. 
-
-These will always return 0 if:
-
-	- A config has not been set by using a function call
-	- or by directly configuring `Random.intRange`.
-
-Usage is basically the same as a function call:
-
 - Get a random percentage (aka `Double`):
 
 	```swift
-	let randomInt = Random.int.value
+	let randomPct: Double = Random.percentage.value
 	```
+
+Note: the following computed properties require configuration to be in place beforehand. 
+
+These will always return 0.0 if:
+
+	- A config has not been set by using a function call
+	- or by directly configuring `Random.percentageRange`.
+
+Usage is basically the same as a function call:
 
 - Get a random percentage below a given `PercentageRange` max limit:
 
 	```swift
-	// setup a range & configure
-	let range = IntRange(lower: 10, upper: 200)
+	// setup a range & configure shared instance
+	let range = PercentageRange(lower: 0.15, upper: 0.322)
 	Random.intRange = range
 	
-	// get a random int value within the range
-	let rangedInt = Random.int.withinUpperLimit
+	// get a random percentage value within the range
+	let rangedPct: Double = Random.percentage.withUpperLimit
 	```
 
 - Get a random percentage value within a given range, between min and max limits:
 
 	```swift
 	// setup a range & configure
-	let range = IntRange(lower: 10, upper: 250)
+	let range = PercentageRange(lower: 0.01, upper: 0.9)
 	Random.intRange = range
 	
 	// get a random int value between range.lower and range.upper
-	let randomWithinRange: Int = Random.int.withinRange
-	// randomWithinRange == some Int between 10 and 200, exclusive of 200 (so max 199)
+	let randomPctWithinRange: Double = Random.percentage.withinRange
+	// randomWithinRange == some Int between 0.01 and 0.9, exclusive of 0.9 (so max 0.89)
 	```
-
-
-
-## Import
-
-### Import into entire project
-
-Open `AppDelegate.swift`
-
-Add an exported import statement to the top of the class like so:
-
-```swift
-@_exported import random_swift
-```
-
-The framework is now accessible in every class in your project.
-
-**Note:** There are some [differing opinions](https://forums.swift.org/t/exported-and-fixing-import-visibility/9415) about `@_exported import`, namely, the risk of object and class [name collisions](https://stackoverflow.com/questions/25231650/swifts-standard-library-and-name-collision) between frameworks, however, if you don’t have any issues with the exported import approach in your project, you’re gonna be alright, and the convenience trade-off is probably worth it.
-
-### Import into class or file
-After installing, import into your class:
-
-```swift
-import random_swift
-```
-
-
-## Requirements
-
-- iOS v11.0 or higher
-- macOS v10.15 or higher (mac catalyst)
-
-## Installation
-
-random-swift is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'random-swift'
-```
 
 ## Authors
 
