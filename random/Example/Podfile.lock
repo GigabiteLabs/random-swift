@@ -1,0 +1,16 @@
+PODS:
+  - random (0.1.0)
+
+DEPENDENCIES:
+  - random (from `../`)
+
+EXTERNAL SOURCES:
+  random:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  random: a31f0a3d3e7277d3f1543b8b7b4772b804bafe9b
+
+PODFILE CHECKSUM: 21210809de9fb9a1587ff4335fd82677bb87b2e4
+
+COCOAPODS: 1.9.3

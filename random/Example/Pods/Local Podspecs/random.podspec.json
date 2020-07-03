@@ -1,0 +1,22 @@
+{
+  "name": "random",
+  "version": "0.1.0",
+  "summary": "A short description of random.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DanBurkhardt/random",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DanBurkhardt": "dan@gigabitelabs.com"
+  },
+  "source": {
+    "git": "https://github.com/DanBurkhardt/random.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "random/Classes/**/*"
+}

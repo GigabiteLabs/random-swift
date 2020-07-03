@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'random_Example' do
+  pod 'random', :path => '../'
+
+  target 'random_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
