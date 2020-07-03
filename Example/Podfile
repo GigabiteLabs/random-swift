@@ -1,11 +1,20 @@
-use_frameworks!
+# Min target
+platform :ios, '11.0'
 
-target 'random_Example' do
-  pod 'random', :path => '../'
+# Pod install settings
+# Configured for using separate projects (more performant)
+install! 'cocoapods',
+generate_multiple_pod_projects: true,
+incremental_installation: true
+use_modular_headers!
 
-  target 'random_Tests' do
+# Open Source Cocoapods
+source 'https://cdn.cocoapods.org'
+target 'random-swift_Example' do
+  pod 'random-swift', :path => '../'
+
+  target 'random-swift_Tests' do
     inherit! :search_paths
-
     
   end
 end

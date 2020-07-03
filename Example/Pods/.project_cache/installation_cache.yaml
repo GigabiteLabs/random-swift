@@ -1,0 +1,29 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Pods-random-swift_Example:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 8a286d3a8610c05d636a4aad39ff672e
+      Release: 8a286d3a8610c05d636a4aad39ff672e
+  Pods-random-swift_Tests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 10f14f74c6d13d353912ffda6a1f7bd6
+      Release: 10f14f74c6d13d353912ffda6a1f7bd6
+  random-swift:
+    BUILD_SETTINGS_CHECKSUM:
+      random-swift:
+        :debug: 3bae9dbea1377e9314a7da856d9a6a29
+        :release: 3bae9dbea1377e9314a7da856d9a6a29
+    CHECKSUM: b0c79a5eead1b0915057f28d220f45e27a9d0d05
+    FILES:
+      - "../../LICENSE"
+      - "../../README.md"
+      - "../../Sources/Classes/Random/Random.swift"
+    PROJECT_NAME: random-swift
+    SPECS:
+      - random-swift (0.1.0)
+OBJECT_VERSION: 46
+PLUGINS:
+  cocoapods-stats:
+    {}

@@ -1,0 +1,12 @@
+Pods-random-swift_Example:
+  LABEL: Pods-random-swift_Example
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 2161E517CCA6A2A3D159A47ABCB41BE5
+Pods-random-swift_Tests:
+  LABEL: Pods-random-swift_Tests
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 92212F0503C830179610A32BF0792CEF
+random-swift:
+  LABEL: random-swift
+  PROJECT_PATH: random-swift.xcodeproj
+  UUID: 94F49A48022A7E847F853E7CD203D229

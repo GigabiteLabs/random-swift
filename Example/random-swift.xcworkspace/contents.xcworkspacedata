@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Volumes/Data/dan/SynologyDrive/SoftwareDevelopment/FrameworkRepositories/UniversaliOS/random-swift/Example/random-swift.xcodeproj">
+      location = "group:random-swift.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

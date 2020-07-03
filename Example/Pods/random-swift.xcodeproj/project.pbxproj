@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF0FB4588308B33E1DF7CA39F7DB2C6 /* random-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D3FFB3861A3A39F60DACDF9697EE90 /* random-swift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37AE962424AED3C100816204 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962324AED3C100816204 /* Random.swift */; };
+		37AE962724AED3E700816204 /* PercentageValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962624AED3E700816204 /* PercentageValue.swift */; };
+		37AE962924AED3F100816204 /* RandomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962824AED3F100816204 /* RandomValue.swift */; };
+		37AE962B24AED3FB00816204 /* IntValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962A24AED3FB00816204 /* IntValue.swift */; };
+		37AE962D24AED40E00816204 /* PercentageRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962C24AED40E00816204 /* PercentageRange.swift */; };
+		37AE962F24AED41E00816204 /* IntRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962E24AED41E00816204 /* IntRange.swift */; };
+		38D5B0B12AE6369B99CAF673C8557C60 /* random-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CE5AA8B9CDEBAF4C2BCFEA57D31586 /* random-swift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02D3FFB3861A3A39F60DACDF9697EE90 /* random-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-umbrella.h"; sourceTree = "<group>"; };
+		1DE02AABC778F295D03CD92B20BA47FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		37AE962324AED3C100816204 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		37AE962624AED3E700816204 /* PercentageValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageValue.swift; sourceTree = "<group>"; };
+		37AE962824AED3F100816204 /* RandomValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomValue.swift; sourceTree = "<group>"; };
+		37AE962A24AED3FB00816204 /* IntValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntValue.swift; sourceTree = "<group>"; };
+		37AE962C24AED40E00816204 /* PercentageRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageRange.swift; sourceTree = "<group>"; };
+		37AE962E24AED41E00816204 /* IntRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntRange.swift; sourceTree = "<group>"; };
+		475A27D8D1BDCA235C37227F24F15B12 /* random-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.release.xcconfig"; sourceTree = "<group>"; };
+		A2698F7503300DD21C0E5AD3D8E88D34 /* random-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "random-swift.modulemap"; sourceTree = "<group>"; };
+		A6C1C2AC3295619C73E6E276306EAE6B /* random-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-prefix.pch"; sourceTree = "<group>"; };
+		B7BB02771CF14568445207B37623E7C0 /* random-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "random-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDD2AE13A25C39D793A0689F19B0F110 /* librandom-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "librandom-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27446D146C316DE3B5EFC714C2430B9 /* random-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		E94AB64A88C7463801783DBC24627939 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F8CE5AA8B9CDEBAF4C2BCFEA57D31586 /* random-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "random-swift-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5FBD1FE49136EBEE0C346DAF592FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37AE962124AED3C100816204 /* Random Values */ = {
+			isa = PBXGroup;
+			children = (
+				37AE962624AED3E700816204 /* PercentageValue.swift */,
+				37AE962824AED3F100816204 /* RandomValue.swift */,
+				37AE962A24AED3FB00816204 /* IntValue.swift */,
+				37AE962C24AED40E00816204 /* PercentageRange.swift */,
+				37AE962E24AED41E00816204 /* IntRange.swift */,
+			);
+			name = "Random Values";
+			path = "Sources/Classes/Random Values";
+			sourceTree = "<group>";
+		};
+		37AE962224AED3C100816204 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				37AE962324AED3C100816204 /* Random.swift */,
+			);
+			name = Random;
+			path = Sources/Classes/Random;
+			sourceTree = "<group>";
+		};
+		85F54A4A185D773E723277D876CB2B25 = {
+			isa = PBXGroup;
+			children = (
+				D91D395E5D798DAC4379CF3D0CDBF4A3 /* Frameworks */,
+				EBB9679D2A5A2D87316AE51BBC34CA89 /* Products */,
+				9A80ED054935AEF7411FF9BAAE09200E /* random-swift */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9F1832A5E5B71771D4C517997D628E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2698F7503300DD21C0E5AD3D8E88D34 /* random-swift.modulemap */,
+				F8CE5AA8B9CDEBAF4C2BCFEA57D31586 /* random-swift-dummy.m */,
+				A6C1C2AC3295619C73E6E276306EAE6B /* random-swift-prefix.pch */,
+				02D3FFB3861A3A39F60DACDF9697EE90 /* random-swift-umbrella.h */,
+				E27446D146C316DE3B5EFC714C2430B9 /* random-swift.debug.xcconfig */,
+				475A27D8D1BDCA235C37227F24F15B12 /* random-swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/random-swift";
+			sourceTree = "<group>";
+		};
+		9A80ED054935AEF7411FF9BAAE09200E /* random-swift */ = {
+			isa = PBXGroup;
+			children = (
+				37AE962224AED3C100816204 /* Random */,
+				37AE962124AED3C100816204 /* Random Values */,
+				AC7C05A34DDCB78A19EC695DBD9EB095 /* Pod */,
+				8E9F1832A5E5B71771D4C517997D628E /* Support Files */,
+			);
+			name = "random-swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AC7C05A34DDCB78A19EC695DBD9EB095 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E94AB64A88C7463801783DBC24627939 /* LICENSE */,
+				B7BB02771CF14568445207B37623E7C0 /* random-swift.podspec */,
+				1DE02AABC778F295D03CD92B20BA47FF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D91D395E5D798DAC4379CF3D0CDBF4A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBB9679D2A5A2D87316AE51BBC34CA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2AE13A25C39D793A0689F19B0F110 /* librandom-swift.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1115BAAACA86DCCF1DD2267105412386 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF0FB4588308B33E1DF7CA39F7DB2C6 /* random-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		94F49A48022A7E847F853E7CD203D229 /* random-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB666D11DD5E474E9ECCEA747AAC97A1 /* Build configuration list for PBXNativeTarget "random-swift" */;
+			buildPhases = (
+				1115BAAACA86DCCF1DD2267105412386 /* Headers */,
+				22D8470DEF1C85426C7EA3C342E01FB3 /* Sources */,
+				3C5FBD1FE49136EBEE0C346DAF592FB4 /* Frameworks */,
+				B09EEDB83B711C25091556F5F8012F83 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "random-swift";
+			productName = "random-swift";
+			productReference = BDD2AE13A25C39D793A0689F19B0F110 /* librandom-swift.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7068F93E1893A68E91639B0686B2EFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = CBD4C4318F6B9EF62D0B46120164C5AF /* Build configuration list for PBXProject "random-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85F54A4A185D773E723277D876CB2B25;
+			productRefGroup = EBB9679D2A5A2D87316AE51BBC34CA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94F49A48022A7E847F853E7CD203D229 /* random-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B09EEDB83B711C25091556F5F8012F83 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/random_swift/random-swift.modulemap",
+				"${PODS_ROOT}/Headers/Public/random_swift/random-swift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/random-swift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/random_swift/random-swift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/random_swift/random-swift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D8470DEF1C85426C7EA3C342E01FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AE962B24AED3FB00816204 /* IntValue.swift in Sources */,
+				37AE962724AED3E700816204 /* PercentageValue.swift in Sources */,
+				37AE962424AED3C100816204 /* Random.swift in Sources */,
+				37AE962F24AED41E00816204 /* IntRange.swift in Sources */,
+				37AE962924AED3F100816204 /* RandomValue.swift in Sources */,
+				38D5B0B12AE6369B99CAF673C8557C60 /* random-swift-dummy.m in Sources */,
+				37AE962D24AED40E00816204 /* PercentageRange.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1225A1BBA3323B38EA09B8E81FAAA35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		512B4B51FB1D31BA777B98DBAB60053A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5898D983B5373E44F87FC4A69C6FAAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27446D146C316DE3B5EFC714C2430B9 /* random-swift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/random-swift/random-swift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Headers/Public/random_swift/random-swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = random_swift;
+				PRODUCT_NAME = "random-swift";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E53B967B2C463D3B6C6DA74EF103D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475A27D8D1BDCA235C37227F24F15B12 /* random-swift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/random-swift/random-swift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Headers/Public/random_swift/random-swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = random_swift;
+				PRODUCT_NAME = "random-swift";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB666D11DD5E474E9ECCEA747AAC97A1 /* Build configuration list for PBXNativeTarget "random-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5898D983B5373E44F87FC4A69C6FAAC5 /* Debug */,
+				6E53B967B2C463D3B6C6DA74EF103D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD4C4318F6B9EF62D0B46120164C5AF /* Build configuration list for PBXProject "random-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512B4B51FB1D31BA777B98DBAB60053A /* Debug */,
+				1225A1BBA3323B38EA09B8E81FAAA35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7068F93E1893A68E91639B0686B2EFC8 /* Project object */;
+}

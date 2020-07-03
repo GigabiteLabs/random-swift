@@ -1,9 +1,10 @@
-# random
+# random-swift
+A utility for randomly generating data, content, and assets for iOS & macOS apps written in Swift.
 
-[![CI Status](https://img.shields.io/travis/DanBurkhardt/random.svg?style=flat)](https://travis-ci.org/DanBurkhardt/random)
-[![Version](https://img.shields.io/cocoapods/v/random.svg?style=flat)](https://cocoapods.org/pods/random)
-[![License](https://img.shields.io/cocoapods/l/random.svg?style=flat)](https://cocoapods.org/pods/random)
-[![Platform](https://img.shields.io/cocoapods/p/random.svg?style=flat)](https://cocoapods.org/pods/random)
+[![CI Status](https://img.shields.io/travis/GigabiteLabs/random-swift.svg?style=flat)](https://travis-ci.org/GigabiteLabs/random-swift)
+[![Version](https://img.shields.io/cocoapods/v/random.svg?style=flat)](https://cocoapods.org/pods/random-swift)
+[![License](https://img.shields.io/cocoapods/l/random.svg?style=flat)](https://cocoapods.org/pods/random-swift)
+[![Platform](https://img.shields.io/cocoapods/p/random.svg?style=flat)](https://cocoapods.org/pods/random-swift)
 
 ## Example
 
@@ -11,19 +12,28 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- iOS v11.0 or higher
+- macOS v10.15 or higher (mac catalyst)
+
 ## Installation
 
-random is available through [CocoaPods](https://cocoapods.org). To install
+random-swift is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'random'
+pod 'random-swift'
 ```
 
-## Author
+## Authors
 
-DanBurkhardt, dan@gigabitelabs.com
+Original Author:
+[Dan Burkhardt](https://github.com/gigabitelabs/danburkhardt)
+Founder & Lead Engineer @[GigabiteLabs](https://gigabitelabs.com)
+Twitter: [@GigabiteDan](https://twitter.com/gigabitedan)
+
+Contributors:
+(nobody else yet ;) 
 
 ## License
 
-random is available under the MIT license. See the LICENSE file for more info.
+random-swift is available under the MIT license. See the LICENSE file for more info.

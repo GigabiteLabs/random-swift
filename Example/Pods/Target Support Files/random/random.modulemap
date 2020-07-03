@@ -1,6 +1,0 @@
-framework module random {
-  umbrella header "random-umbrella.h"
-
-  export *
-  module * { export * }
-}
