@@ -7,6 +7,7 @@
 //
 
 import UIKit
+@_exported import random_swift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

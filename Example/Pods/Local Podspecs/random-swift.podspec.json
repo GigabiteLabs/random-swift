@@ -24,7 +24,9 @@
     "UIKit",
     "Foundation"
   ],
+  "swift_versions": "5.2",
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": "$(inherited) -ObjC"
-  }
+  },
+  "swift_version": "5.2"
 }

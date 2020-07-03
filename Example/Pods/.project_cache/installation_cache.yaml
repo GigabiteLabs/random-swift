@@ -15,7 +15,7 @@ CACHE_KEYS:
       random-swift:
         :debug: 86d6735949b9a61d8eb21add26f5ed01
         :release: 86d6735949b9a61d8eb21add26f5ed01
-    CHECKSUM: edb65408061eee15b8baef40570466cac28e010f
+    CHECKSUM: fb0cf7c30733e50595723e384ba84b2607a8eb43
     FILES:
       - "../../LICENSE"
       - "../../README.md"

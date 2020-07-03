@@ -33,7 +33,6 @@ class ObjectMethodTests: XCTestCase {
             let randomLimited = Random.int.withUpperLimit
             XCTAssertLessThanOrEqual(randomLimited, Int(intRange.upper), "randomLimited int cannot be greater than the limit")
             
-            
             // get random within range
             let randomWithinRange = Random.int.withinRange
             XCTAssertLessThanOrEqual(randomWithinRange, Int(intRange.upper), "randomWithinRange should be less than or equal to the upper-bound value")
