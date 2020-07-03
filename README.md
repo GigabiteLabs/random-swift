@@ -1,7 +1,7 @@
 # random-swift
 A utility for randomly generating data, content, and assets for iOS & macOS apps written in Swift.
 
-[![CI Status](https://img.shields.io/travis/GigabiteLabs/random-swift.svg?style=flat)](https://travis-ci.org/GigabiteLabs/random-swift)
+[![CI Status](https://travis-ci.com/GigabiteLabs/random-swift.svg?branch=main)
 [![Version](https://img.shields.io/cocoapods/v/random.svg?style=flat)](https://cocoapods.org/pods/random-swift)
 [![License](https://img.shields.io/cocoapods/l/random.svg?style=flat)](https://cocoapods.org/pods/random-swift)
 [![Platform](https://img.shields.io/cocoapods/p/random.svg?style=flat)](https://cocoapods.org/pods/random-swift)
