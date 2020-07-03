@@ -4,21 +4,30 @@ BUILD_CONFIGURATIONS:
 CACHE_KEYS:
   Pods-random-swift_Example:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8a286d3a8610c05d636a4aad39ff672e
-      Release: 8a286d3a8610c05d636a4aad39ff672e
+      Debug: 42dad2fd2f16000564d942d3d7df88b1
+      Release: 42dad2fd2f16000564d942d3d7df88b1
   Pods-random-swift_Tests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 10f14f74c6d13d353912ffda6a1f7bd6
-      Release: 10f14f74c6d13d353912ffda6a1f7bd6
+      Debug: 42dad2fd2f16000564d942d3d7df88b1
+      Release: 42dad2fd2f16000564d942d3d7df88b1
   random-swift:
     BUILD_SETTINGS_CHECKSUM:
       random-swift:
-        :debug: 3bae9dbea1377e9314a7da856d9a6a29
-        :release: 3bae9dbea1377e9314a7da856d9a6a29
-    CHECKSUM: b0c79a5eead1b0915057f28d220f45e27a9d0d05
+        :debug: 86d6735949b9a61d8eb21add26f5ed01
+        :release: 86d6735949b9a61d8eb21add26f5ed01
+    CHECKSUM: edb65408061eee15b8baef40570466cac28e010f
     FILES:
       - "../../LICENSE"
       - "../../README.md"
+      - "../../Sources/Classes/extensions/Double+RoundToPlaces+TypeConversions.swift"
+      - "../../Sources/Classes/extensions/Double+StaticFuncs.swift"
+      - "../../Sources/Classes/extensions/Int+StaticFuncs.swift"
+      - "../../Sources/Classes/extensions/Int+TypeConversions.swift"
+      - "../../Sources/Classes/Random Values/Int/IntRange.swift"
+      - "../../Sources/Classes/Random Values/Int/IntValue.swift"
+      - "../../Sources/Classes/Random Values/Percentage/PercentageRange.swift"
+      - "../../Sources/Classes/Random Values/Percentage/PercentageValue.swift"
+      - "../../Sources/Classes/Random Values/RandomValue.swift"
       - "../../Sources/Classes/Random/Random.swift"
     PROJECT_NAME: random-swift
     SPECS:

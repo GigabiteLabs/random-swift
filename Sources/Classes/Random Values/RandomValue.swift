@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// A base class shared between all value generator classes.
+/// A subclass for sharing utility functions between random value generator classes.
 public class RandomValue {
     /// Util for `arc4random` generation and conversion to `Int`.
     internal func randomInt() -> Int {

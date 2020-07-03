@@ -7,136 +7,193 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FF0FB4588308B33E1DF7CA39F7DB2C6 /* random-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D3FFB3861A3A39F60DACDF9697EE90 /* random-swift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		37AE962424AED3C100816204 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962324AED3C100816204 /* Random.swift */; };
-		37AE962724AED3E700816204 /* PercentageValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962624AED3E700816204 /* PercentageValue.swift */; };
-		37AE962924AED3F100816204 /* RandomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962824AED3F100816204 /* RandomValue.swift */; };
-		37AE962B24AED3FB00816204 /* IntValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962A24AED3FB00816204 /* IntValue.swift */; };
-		37AE962D24AED40E00816204 /* PercentageRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962C24AED40E00816204 /* PercentageRange.swift */; };
-		37AE962F24AED41E00816204 /* IntRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE962E24AED41E00816204 /* IntRange.swift */; };
-		38D5B0B12AE6369B99CAF673C8557C60 /* random-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CE5AA8B9CDEBAF4C2BCFEA57D31586 /* random-swift-dummy.m */; };
+		0C7D2FBE59B8B955777247419DB24116 /* PercentageRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BE821C46A6A993A038765F1B9C5E0C /* PercentageRange.swift */; };
+		1357973C028B1AE10F383DE0BB569FE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636C702B1C08C8463C0B3B3B122283B4 /* Foundation.framework */; };
+		27EFDF6553A5E38ED5A9C4F0E4DDF0B3 /* random-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 448CA185B1D3F2C168D7BFFEF7EEF9F7 /* random-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A8B26D6EC1873F1997993167697EBE2 /* Double+StaticFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE16937817D8FEFD082C4B92F09EA102 /* Double+StaticFuncs.swift */; };
+		3EBB93E7034F2C30F1BC90F2C419ECEC /* Int+StaticFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22587CFDA7441268762CB3FF8151725B /* Int+StaticFuncs.swift */; };
+		42A2D2EF7F643D7E013ED397A51965D9 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F72B69D4587BAAE382C496A552184E /* Random.swift */; };
+		46BCDBC3CE672828632FC0DD55ADE285 /* RandomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429E5E387E2C8FCABC0CECA52EA8743 /* RandomValue.swift */; };
+		533E4F00A698E29A4728F9C0F8ADE4C0 /* IntRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5320F5405B30539BF859D84CC5547905 /* IntRange.swift */; };
+		AAC0EE258A717E96E916D051B3594455 /* PercentageValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F402B97E941295966164F11E60DCA3FF /* PercentageValue.swift */; };
+		B9CD0EC0DD8465F2FB7F17C2E4C33EC9 /* random-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B5FC4D80C320EB7FD4B0B7FC749BFF /* random-swift-dummy.m */; };
+		CA85352ABC686694DFC69CAEDC2EF4D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE55858DBBC259421F3C51A6735DE51 /* UIKit.framework */; };
+		CD1A9A7ED39878E4CB113C556D62FA5F /* Double+RoundToPlaces+TypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BA1F3BAFF4F5CC34D2210018814B2 /* Double+RoundToPlaces+TypeConversions.swift */; };
+		D73C2416BAC8590F68C1DF005CC40F8C /* Int+TypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88734034897A6E532E2605778E7F601F /* Int+TypeConversions.swift */; };
+		DD6FB441B6E5F6C8238E24E687A5B07E /* IntValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173F1ADB92A2C193589DF5D33A08F4B /* IntValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02D3FFB3861A3A39F60DACDF9697EE90 /* random-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-umbrella.h"; sourceTree = "<group>"; };
-		1DE02AABC778F295D03CD92B20BA47FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		37AE962324AED3C100816204 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		37AE962624AED3E700816204 /* PercentageValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageValue.swift; sourceTree = "<group>"; };
-		37AE962824AED3F100816204 /* RandomValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomValue.swift; sourceTree = "<group>"; };
-		37AE962A24AED3FB00816204 /* IntValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntValue.swift; sourceTree = "<group>"; };
-		37AE962C24AED40E00816204 /* PercentageRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageRange.swift; sourceTree = "<group>"; };
-		37AE962E24AED41E00816204 /* IntRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntRange.swift; sourceTree = "<group>"; };
-		475A27D8D1BDCA235C37227F24F15B12 /* random-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.release.xcconfig"; sourceTree = "<group>"; };
-		A2698F7503300DD21C0E5AD3D8E88D34 /* random-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "random-swift.modulemap"; sourceTree = "<group>"; };
-		A6C1C2AC3295619C73E6E276306EAE6B /* random-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-prefix.pch"; sourceTree = "<group>"; };
-		B7BB02771CF14568445207B37623E7C0 /* random-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "random-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BDD2AE13A25C39D793A0689F19B0F110 /* librandom-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "librandom-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E27446D146C316DE3B5EFC714C2430B9 /* random-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.debug.xcconfig"; sourceTree = "<group>"; };
-		E94AB64A88C7463801783DBC24627939 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		F8CE5AA8B9CDEBAF4C2BCFEA57D31586 /* random-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "random-swift-dummy.m"; sourceTree = "<group>"; };
+		0A42E7AEDAB34C7D2572215A8CFC323D /* random-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-prefix.pch"; sourceTree = "<group>"; };
+		0D1CE9EAF40E27C2CB5EF3B266D14FED /* random-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.release.xcconfig"; sourceTree = "<group>"; };
+		0EE0ACF082037E0F209806B1920A6C27 /* random-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "random-swift.modulemap"; sourceTree = "<group>"; };
+		1173F1ADB92A2C193589DF5D33A08F4B /* IntValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntValue.swift; sourceTree = "<group>"; };
+		22587CFDA7441268762CB3FF8151725B /* Int+StaticFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+StaticFuncs.swift"; sourceTree = "<group>"; };
+		448CA185B1D3F2C168D7BFFEF7EEF9F7 /* random-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-umbrella.h"; sourceTree = "<group>"; };
+		47C295FECB30CDB77A18A436A782C8A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5320F5405B30539BF859D84CC5547905 /* IntRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntRange.swift; sourceTree = "<group>"; };
+		5B3CB0AE13C44E3DB8B90AC512E93838 /* random-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "random-swift-Info.plist"; sourceTree = "<group>"; };
+		636C702B1C08C8463C0B3B3B122283B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77F72B69D4587BAAE382C496A552184E /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		78BE821C46A6A993A038765F1B9C5E0C /* PercentageRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PercentageRange.swift; sourceTree = "<group>"; };
+		7FE55858DBBC259421F3C51A6735DE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		88734034897A6E532E2605778E7F601F /* Int+TypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+TypeConversions.swift"; sourceTree = "<group>"; };
+		8EFE473E0E78B08EB98C62407D60B40E /* random-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "random-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9429E5E387E2C8FCABC0CECA52EA8743 /* RandomValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RandomValue.swift; sourceTree = "<group>"; };
+		97B5FC4D80C320EB7FD4B0B7FC749BFF /* random-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "random-swift-dummy.m"; sourceTree = "<group>"; };
+		AD5BD5822FC842D29FD6D580CEF0CF1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BDD2AE13A25C39D793A0689F19B0F110 /* random_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = random_swift.framework; path = "random-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60BA1F3BAFF4F5CC34D2210018814B2 /* Double+RoundToPlaces+TypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+RoundToPlaces+TypeConversions.swift"; sourceTree = "<group>"; };
+		DC1D99AD3A900A40FC47FE3EB6C64DBF /* random-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		DE16937817D8FEFD082C4B92F09EA102 /* Double+StaticFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+StaticFuncs.swift"; sourceTree = "<group>"; };
+		F402B97E941295966164F11E60DCA3FF /* PercentageValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PercentageValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3C5FBD1FE49136EBEE0C346DAF592FB4 /* Frameworks */ = {
+		37A45C2083BF11140D721A5B29DE6F67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1357973C028B1AE10F383DE0BB569FE8 /* Foundation.framework in Frameworks */,
+				CA85352ABC686694DFC69CAEDC2EF4D2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37AE962124AED3C100816204 /* Random Values */ = {
+		0BFFB4E8F45CE35B98A4B0183EC58280 /* Random Values */ = {
 			isa = PBXGroup;
 			children = (
-				37AE962624AED3E700816204 /* PercentageValue.swift */,
-				37AE962824AED3F100816204 /* RandomValue.swift */,
-				37AE962A24AED3FB00816204 /* IntValue.swift */,
-				37AE962C24AED40E00816204 /* PercentageRange.swift */,
-				37AE962E24AED41E00816204 /* IntRange.swift */,
+				9429E5E387E2C8FCABC0CECA52EA8743 /* RandomValue.swift */,
+				A67B323A9589CE0BD2D44B3CADDC60DF /* Int */,
+				4ABF4C7198F44659F09391948BAC76BF /* Percentage */,
 			);
 			name = "Random Values";
 			path = "Sources/Classes/Random Values";
 			sourceTree = "<group>";
 		};
-		37AE962224AED3C100816204 /* Random */ = {
+		1C7C04226618033E050BD196F3A9BF95 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
-				37AE962324AED3C100816204 /* Random.swift */,
+				D60BA1F3BAFF4F5CC34D2210018814B2 /* Double+RoundToPlaces+TypeConversions.swift */,
+				DE16937817D8FEFD082C4B92F09EA102 /* Double+StaticFuncs.swift */,
+				22587CFDA7441268762CB3FF8151725B /* Int+StaticFuncs.swift */,
+				88734034897A6E532E2605778E7F601F /* Int+TypeConversions.swift */,
 			);
-			name = Random;
-			path = Sources/Classes/Random;
+			name = extensions;
+			path = Sources/Classes/extensions;
+			sourceTree = "<group>";
+		};
+		4ABF4C7198F44659F09391948BAC76BF /* Percentage */ = {
+			isa = PBXGroup;
+			children = (
+				78BE821C46A6A993A038765F1B9C5E0C /* PercentageRange.swift */,
+				F402B97E941295966164F11E60DCA3FF /* PercentageValue.swift */,
+			);
+			name = Percentage;
+			path = Percentage;
+			sourceTree = "<group>";
+		};
+		58560FAA2ECC07D7718BFE8270FD6A8E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				636C702B1C08C8463C0B3B3B122283B4 /* Foundation.framework */,
+				7FE55858DBBC259421F3C51A6735DE51 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A86792A160164C66D1F2ECBA11ABF03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58560FAA2ECC07D7718BFE8270FD6A8E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B5ACACAFCF0AB3520FCB1247D74E6FA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AD5BD5822FC842D29FD6D580CEF0CF1E /* LICENSE */,
+				8EFE473E0E78B08EB98C62407D60B40E /* random-swift.podspec */,
+				47C295FECB30CDB77A18A436A782C8A9 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		85F54A4A185D773E723277D876CB2B25 = {
 			isa = PBXGroup;
 			children = (
-				D91D395E5D798DAC4379CF3D0CDBF4A3 /* Frameworks */,
-				EBB9679D2A5A2D87316AE51BBC34CA89 /* Products */,
-				9A80ED054935AEF7411FF9BAAE09200E /* random-swift */,
+				5A86792A160164C66D1F2ECBA11ABF03 /* Frameworks */,
+				D5DC4DACF9397A3E31EAC638B44BB1CC /* Products */,
+				D5FE0ACB7D0B66E45800A282105B13EA /* random-swift */,
 			);
 			sourceTree = "<group>";
 		};
-		8E9F1832A5E5B71771D4C517997D628E /* Support Files */ = {
+		A615028E30DD467FCC99E8056B2C6FC4 /* Random */ = {
 			isa = PBXGroup;
 			children = (
-				A2698F7503300DD21C0E5AD3D8E88D34 /* random-swift.modulemap */,
-				F8CE5AA8B9CDEBAF4C2BCFEA57D31586 /* random-swift-dummy.m */,
-				A6C1C2AC3295619C73E6E276306EAE6B /* random-swift-prefix.pch */,
-				02D3FFB3861A3A39F60DACDF9697EE90 /* random-swift-umbrella.h */,
-				E27446D146C316DE3B5EFC714C2430B9 /* random-swift.debug.xcconfig */,
-				475A27D8D1BDCA235C37227F24F15B12 /* random-swift.release.xcconfig */,
+				77F72B69D4587BAAE382C496A552184E /* Random.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/random-swift";
+			name = Random;
+			path = Sources/Classes/Random;
 			sourceTree = "<group>";
 		};
-		9A80ED054935AEF7411FF9BAAE09200E /* random-swift */ = {
+		A67B323A9589CE0BD2D44B3CADDC60DF /* Int */ = {
 			isa = PBXGroup;
 			children = (
-				37AE962224AED3C100816204 /* Random */,
-				37AE962124AED3C100816204 /* Random Values */,
-				AC7C05A34DDCB78A19EC695DBD9EB095 /* Pod */,
-				8E9F1832A5E5B71771D4C517997D628E /* Support Files */,
+				5320F5405B30539BF859D84CC5547905 /* IntRange.swift */,
+				1173F1ADB92A2C193589DF5D33A08F4B /* IntValue.swift */,
+			);
+			name = Int;
+			path = Int;
+			sourceTree = "<group>";
+		};
+		D5DC4DACF9397A3E31EAC638B44BB1CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2AE13A25C39D793A0689F19B0F110 /* random_swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5FE0ACB7D0B66E45800A282105B13EA /* random-swift */ = {
+			isa = PBXGroup;
+			children = (
+				1C7C04226618033E050BD196F3A9BF95 /* extensions */,
+				6B5ACACAFCF0AB3520FCB1247D74E6FA /* Pod */,
+				A615028E30DD467FCC99E8056B2C6FC4 /* Random */,
+				0BFFB4E8F45CE35B98A4B0183EC58280 /* Random Values */,
+				E503689C11FB013BED555C4ADA7F63BB /* Support Files */,
 			);
 			name = "random-swift";
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		AC7C05A34DDCB78A19EC695DBD9EB095 /* Pod */ = {
+		E503689C11FB013BED555C4ADA7F63BB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E94AB64A88C7463801783DBC24627939 /* LICENSE */,
-				B7BB02771CF14568445207B37623E7C0 /* random-swift.podspec */,
-				1DE02AABC778F295D03CD92B20BA47FF /* README.md */,
+				0EE0ACF082037E0F209806B1920A6C27 /* random-swift.modulemap */,
+				97B5FC4D80C320EB7FD4B0B7FC749BFF /* random-swift-dummy.m */,
+				5B3CB0AE13C44E3DB8B90AC512E93838 /* random-swift-Info.plist */,
+				0A42E7AEDAB34C7D2572215A8CFC323D /* random-swift-prefix.pch */,
+				448CA185B1D3F2C168D7BFFEF7EEF9F7 /* random-swift-umbrella.h */,
+				DC1D99AD3A900A40FC47FE3EB6C64DBF /* random-swift.debug.xcconfig */,
+				0D1CE9EAF40E27C2CB5EF3B266D14FED /* random-swift.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D91D395E5D798DAC4379CF3D0CDBF4A3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EBB9679D2A5A2D87316AE51BBC34CA89 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BDD2AE13A25C39D793A0689F19B0F110 /* librandom-swift.a */,
-			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/random-swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1115BAAACA86DCCF1DD2267105412386 /* Headers */ = {
+		E3A5C55A9F7041DE3C3FB3F00E3F0D62 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF0FB4588308B33E1DF7CA39F7DB2C6 /* random-swift-umbrella.h in Headers */,
+				27EFDF6553A5E38ED5A9C4F0E4DDF0B3 /* random-swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,12 +202,12 @@
 /* Begin PBXNativeTarget section */
 		94F49A48022A7E847F853E7CD203D229 /* random-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB666D11DD5E474E9ECCEA747AAC97A1 /* Build configuration list for PBXNativeTarget "random-swift" */;
+			buildConfigurationList = 99A8BBE8BB7961CE0D2E26AC4131EB0D /* Build configuration list for PBXNativeTarget "random-swift" */;
 			buildPhases = (
-				1115BAAACA86DCCF1DD2267105412386 /* Headers */,
-				22D8470DEF1C85426C7EA3C342E01FB3 /* Sources */,
-				3C5FBD1FE49136EBEE0C346DAF592FB4 /* Frameworks */,
-				B09EEDB83B711C25091556F5F8012F83 /* Copy generated compatibility header */,
+				E3A5C55A9F7041DE3C3FB3F00E3F0D62 /* Headers */,
+				D83B5D9BA0F537131CF5A5C3B354395D /* Sources */,
+				37A45C2083BF11140D721A5B29DE6F67 /* Frameworks */,
+				3ED1CFB205B8D40F49C8D0FEAA5CA571 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -158,8 +215,8 @@
 			);
 			name = "random-swift";
 			productName = "random-swift";
-			productReference = BDD2AE13A25C39D793A0689F19B0F110 /* librandom-swift.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = BDD2AE13A25C39D793A0689F19B0F110 /* random_swift.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -179,7 +236,7 @@
 				Base,
 			);
 			mainGroup = 85F54A4A185D773E723277D876CB2B25;
-			productRefGroup = EBB9679D2A5A2D87316AE51BBC34CA89 /* Products */;
+			productRefGroup = D5DC4DACF9397A3E31EAC638B44BB1CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -188,51 +245,71 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		B09EEDB83B711C25091556F5F8012F83 /* Copy generated compatibility header */ = {
-			isa = PBXShellScriptBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		3ED1CFB205B8D40F49C8D0FEAA5CA571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/random_swift/random-swift.modulemap",
-				"${PODS_ROOT}/Headers/Public/random_swift/random-swift-umbrella.h",
-			);
-			name = "Copy generated compatibility header";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/random-swift-umbrella.h",
-				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
-			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/random_swift/random-swift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/random_swift/random-swift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
-/* End PBXShellScriptBuildPhase section */
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22D8470DEF1C85426C7EA3C342E01FB3 /* Sources */ = {
+		D83B5D9BA0F537131CF5A5C3B354395D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37AE962B24AED3FB00816204 /* IntValue.swift in Sources */,
-				37AE962724AED3E700816204 /* PercentageValue.swift in Sources */,
-				37AE962424AED3C100816204 /* Random.swift in Sources */,
-				37AE962F24AED41E00816204 /* IntRange.swift in Sources */,
-				37AE962924AED3F100816204 /* RandomValue.swift in Sources */,
-				38D5B0B12AE6369B99CAF673C8557C60 /* random-swift-dummy.m in Sources */,
-				37AE962D24AED40E00816204 /* PercentageRange.swift in Sources */,
+				CD1A9A7ED39878E4CB113C556D62FA5F /* Double+RoundToPlaces+TypeConversions.swift in Sources */,
+				3A8B26D6EC1873F1997993167697EBE2 /* Double+StaticFuncs.swift in Sources */,
+				3EBB93E7034F2C30F1BC90F2C419ECEC /* Int+StaticFuncs.swift in Sources */,
+				D73C2416BAC8590F68C1DF005CC40F8C /* Int+TypeConversions.swift in Sources */,
+				533E4F00A698E29A4728F9C0F8ADE4C0 /* IntRange.swift in Sources */,
+				DD6FB441B6E5F6C8238E24E687A5B07E /* IntValue.swift in Sources */,
+				0C7D2FBE59B8B955777247419DB24116 /* PercentageRange.swift in Sources */,
+				AAC0EE258A717E96E916D051B3594455 /* PercentageValue.swift in Sources */,
+				B9CD0EC0DD8465F2FB7F17C2E4C33EC9 /* random-swift-dummy.m in Sources */,
+				42A2D2EF7F643D7E013ED397A51965D9 /* Random.swift in Sources */,
+				46BCDBC3CE672828632FC0DD55ADE285 /* RandomValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		03F3B3F92EE68C8F16561DC7CEF443AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1D99AD3A900A40FC47FE3EB6C64DBF /* random-swift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/random-swift/random-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/random-swift/random-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/random-swift/random-swift.modulemap";
+				PRODUCT_MODULE_NAME = random_swift;
+				PRODUCT_NAME = random_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		1225A1BBA3323B38EA09B8E81FAAA35F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -286,7 +363,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -356,69 +434,48 @@
 			};
 			name = Debug;
 		};
-		5898D983B5373E44F87FC4A69C6FAAC5 /* Debug */ = {
+		F17ED9B3065C5D465C664209A6B2DFDC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E27446D146C316DE3B5EFC714C2430B9 /* random-swift.debug.xcconfig */;
+			baseConfigurationReference = 0D1CE9EAF40E27C2CB5EF3B266D14FED /* random-swift.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/random-swift/random-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/random-swift/random-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = "Headers/Public/random_swift/random-swift.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/random-swift/random-swift.modulemap";
 				PRODUCT_MODULE_NAME = random_swift;
-				PRODUCT_NAME = "random-swift";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6E53B967B2C463D3B6C6DA74EF103D89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 475A27D8D1BDCA235C37227F24F15B12 /* random-swift.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/random-swift/random-swift-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = "Headers/Public/random_swift/random-swift.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = random_swift;
-				PRODUCT_NAME = "random-swift";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = random_swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB666D11DD5E474E9ECCEA747AAC97A1 /* Build configuration list for PBXNativeTarget "random-swift" */ = {
+		99A8BBE8BB7961CE0D2E26AC4131EB0D /* Build configuration list for PBXNativeTarget "random-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5898D983B5373E44F87FC4A69C6FAAC5 /* Debug */,
-				6E53B967B2C463D3B6C6DA74EF103D89 /* Release */,
+				03F3B3F92EE68C8F16561DC7CEF443AA /* Debug */,
+				F17ED9B3065C5D465C664209A6B2DFDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

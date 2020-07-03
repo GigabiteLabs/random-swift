@@ -15,6 +15,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.source_files = 'Sources/Classes/**/*'
   s.frameworks = 'UIKit', 'Foundation'
+  s.swift_versions = ['5.0','5.1', '5.2']
+  s.pod_target_xcconfig = {
+    'OTHER_LDFLAGS' => '$(inherited) -ObjC'
+  }
   
   # inactive settings
   # s.resource_bundles = {

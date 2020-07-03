@@ -1,4 +1,4 @@
-module Pods_random_swift_Example {
+framework module Pods_random_swift_Example {
   umbrella header "Pods-random-swift_Example-umbrella.h"
 
   export *

@@ -11,9 +11,10 @@ import Foundation
 public class PercentageValue: RandomValue {
     // A range configuration set through `Range.percentageRange` = newValue.
     internal var range: PercentageRange?
+    /// A private variable for configuration of decimal place limitations
+    private var maxDecimalPlacesForRange: Int?
     /// Returns a random `Double` between 0.0 and 1.0
     /// with no limitations on decimal places on the output.
-    ///
     ///
     /// - Returns: `Double` between 0.0 and 1.0
     ///
@@ -52,6 +53,8 @@ public class PercentageValue: RandomValue {
     ///
     ///         print(randomPercent) // 0.5948
     ///
+    /// - Note: If no value is specified for `maxDecimalPlaces` the default value of `10` will be used
+    ///
     public func value(roundedTo maxDecimalPlaces: Int) -> Double {
         return Double.random(in: 0 ... 1).rounded(toPlaces: maxDecimalPlaces)
     }
@@ -69,14 +72,13 @@ public class PercentageValue: RandomValue {
     /// - If a randomly generated value exceeds the upper,` range.max` is returned.
     ///
     public func withUpperLimit(of range: PercentageRange, maxDecimalPlaces: Int?) -> Double {
+        // setup range for re-use
         Random.percentageRange = range
-        // if max places is set, return.
-        if let maxPlaces = maxDecimalPlaces {
-            let upperBoundRandom = withUpperLimit
-            return upperBoundRandom.rounded(toPlaces: maxPlaces)
-        } else {
-            return withUpperLimit
+        // if max places is provided, use to round return value
+        if let maxDecimal = maxDecimalPlaces {
+            return withUpperLimit.rounded(toPlaces: maxDecimal)
         }
+        return withUpperLimit
     }
     /// A computed variable that returns random `Double` value between 0.0 and 1.0,
     /// respecting upper and lower percentage bound configuration.
@@ -114,8 +116,37 @@ public class PercentageValue: RandomValue {
     /// - If a randomly generated value is less than the min, ` PercentageRange.min` is returned.
     ///
     public func withinRange(_ range: PercentageRange) -> Double {
+        // setup range for re-use
         Random.percentageRange = range
-        return self.withinRange
+        // return value within range
+        return withinRange
+    }
+    /// Dynamically returns a random Double value between 0.0 and 1.0 by `PercentageRange` provided,
+    /// and if configured, limited to the specified number of decminal places.
+    ///
+    /// - Parameters:
+    ///     - range: a `PercentageRange` configuration that defines
+    ///     the min and max of the range
+    ///     - maxDecimalPlaces: an optional configuration that limits the return value to
+    ///      the number of max places specified.
+    ///
+    /// - Returns: `Double` representing a random value between min and max of `Range`
+    ///
+    /// - Note:
+    /// - If a randomly generated value exceeds the max,` PercentageRange.max` is returned.
+    /// - If a randomly generated value is less than the min, ` PercentageRange.min` is returned.
+    /// - If no maxDecimalPlaces are provided, no limitation will be applied to the return value.
+    ///
+    public func withinRange(_ range: PercentageRange, maxDecimalPlaces: Int?) -> Double {
+        // setup range for re-use
+        Random.percentageRange = range
+        // if max places is provided, use to round return value
+        if let maxDecimal = maxDecimalPlaces {
+            self.maxDecimalPlacesForRange = maxDecimal
+            let pctWithinRange = withinRange
+            return pctWithinRange.rounded(toPlaces: maxDecimal)
+        }
+        return withinRange
     }
     /// A computed variable that returns random Double value between 0 and 1,
     /// respecting upper and lower percentage bound configuration.
@@ -135,19 +166,29 @@ public class PercentageValue: RandomValue {
     /// 0.0 will be returned.
     ///
     public var withinRange: Double {
+        // return 0.0 if no range configured
         guard let range = range else {
             return 0.0
         }
-        let initial = Double.random(in: 0 ... 1).rounded(toPlaces: 2)
-        if initial < range.min || initial > range.max {
-            switch initial < range.min {
+        // setup starting value
+        let initial = Double.random(in: 0 ... 1)
+        // setup var for modification
+        var processed: Double = initial
+        // check for user-configured maxDecimalPlaces
+        if let maxDecimal = self.maxDecimalPlacesForRange {
+            processed = initial.rounded(toPlaces: maxDecimal)
+        }
+        // determine if the processed var is above or
+        // below the allowable range
+        if processed < range.min || processed > range.max {
+            switch processed < range.min {
             case true:
                 return range.min
             case false:
                 return range.max
             }
         } else {
-            return initial
+            return processed
         }
     }
 }

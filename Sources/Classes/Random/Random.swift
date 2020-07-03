@@ -60,7 +60,9 @@ import Foundation
 ///
 ///
 public class Random {
+    /// The shared instance of `IntValue`.
     public static let int = IntValue()
+    /// The shared instance of `PercentageValue`.
     public static let percentage = PercentageValue()
     /// An Int range configuration with upper and lower bounds.
     public static var intRange: IntRange? {

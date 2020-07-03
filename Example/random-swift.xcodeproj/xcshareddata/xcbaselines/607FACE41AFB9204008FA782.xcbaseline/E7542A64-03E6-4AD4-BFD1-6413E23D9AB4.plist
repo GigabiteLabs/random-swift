@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classNames</key>
+	<dict>
+		<key>ComputedPropertyTests</key>
+		<dict>
+			<key>testPerformanceExample()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.0089825</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Jul 3, 2020 at 12:34:32 AM</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>ExtensionTests</key>
+		<dict>
+			<key>testPerformanceExample()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>7.5774e-06</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Jul 3, 2020 at 12:34:32 AM</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>ObjectMethodTests</key>
+		<dict>
+			<key>testPerformanceExample()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.1154e-05</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Jul 3, 2020 at 12:34:32 AM</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>StaticMethodTests</key>
+		<dict>
+			<key>testPerformanceExample()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.3716e-05</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Jul 3, 2020 at 12:34:32 AM</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

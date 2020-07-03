@@ -11,10 +11,12 @@ use_modular_headers!
 # Open Source Cocoapods
 source 'https://cdn.cocoapods.org'
 target 'random-swift_Example' do
+  # Pod install settings
+  use_frameworks!
   pod 'random-swift', :path => '../'
 
   target 'random-swift_Tests' do
     inherit! :search_paths
-    
+    pod 'random-swift', :path => '../'
   end
 end
