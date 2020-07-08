@@ -87,6 +87,21 @@ Currently supported:
 	```
 <br>
 
+### Random Word Generation
+
+Random supports true random word generation.
+
+Random words are generated from a static dictionary containing 235,886 words, all of which are packaged by default with macOS. 
+
+**Functions**
+
+- Get a random Word:
+
+    ```swift
+    let randomWord = Random.word
+    ```
+
+<br>
 ### Random Value Generation
 
 #### Random Ints
