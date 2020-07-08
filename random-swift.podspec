@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'random-swift'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A utility for randomly generated data, content, and assets.'
   s.description      = <<-DESC
   'random is a utility for generating random data, content, and assets for iOS applications in Swift.'
@@ -26,4 +26,9 @@ Pod::Spec.new do |s|
    }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.test_spec 'random-swift_tests' do |test_spec|
+      test_spec.requires_app_host = true
+      test_spec.source_files = 'Example/Tests/*.{swift}'
+  end
 end
