@@ -15,24 +15,26 @@ CACHE_KEYS:
       random-swift:
         :debug: 86d6735949b9a61d8eb21add26f5ed01
         :release: 86d6735949b9a61d8eb21add26f5ed01
-    CHECKSUM: 33349bc1aa0d26da00d742937c2ab88746aaad79
+    CHECKSUM: c6705bfd4ca9578556400ad60ba7a8f9d46c967e
     FILES:
       - "../../LICENSE"
       - "../../README.md"
+      - "../../Sources/Assets/words.txt"
       - "../../Sources/Classes/extensions/Double+RoundToPlaces+TypeConversions.swift"
       - "../../Sources/Classes/extensions/Double+StaticFuncs.swift"
       - "../../Sources/Classes/extensions/Int+StaticFuncs.swift"
       - "../../Sources/Classes/extensions/Int+TypeConversions.swift"
-      - "../../Sources/Classes/Random Language/word.swift"
+      - "../../Sources/Classes/Random Language/Words.swift"
       - "../../Sources/Classes/Random Values/Int/IntRange.swift"
       - "../../Sources/Classes/Random Values/Int/IntValue.swift"
       - "../../Sources/Classes/Random Values/Percentage/PercentageRange.swift"
       - "../../Sources/Classes/Random Values/Percentage/PercentageValue.swift"
       - "../../Sources/Classes/Random Values/RandomValue.swift"
       - "../../Sources/Classes/Random/Random.swift"
+      - "../../Sources/Classes/Random/RandomConfig.swift"
     PROJECT_NAME: random-swift
     SPECS:
-      - random-swift (0.1.2)
+      - random-swift (0.1.3)
 OBJECT_VERSION: 46
 PLUGINS:
   cocoapods-stats:

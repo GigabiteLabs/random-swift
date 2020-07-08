@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -19,7 +19,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "random-swift",
-            dependencies: [],
+            resources: [
+                .process("Sources/Assets/words.txt"),
+            ],
             path: "Sources",
             sources: ["Classes"]
         ),

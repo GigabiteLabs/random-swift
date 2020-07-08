@@ -7,95 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05BE3DE9A34C8B8AB0BBEA45240E0C24 /* PercentageValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03FF777126BA4103F6F628711933B59 /* PercentageValue.swift */; };
-		2940780379F2AA7E3238123CA8ACEE7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636C702B1C08C8463C0B3B3B122283B4 /* Foundation.framework */; };
-		3499382BB338CC41402C610AF8013EAB /* Int+TypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CD14F57F654585FDB51D8F48F2640 /* Int+TypeConversions.swift */; };
-		3723474324B55B96001514ED /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3723474224B55B96001514ED /* words.txt */; };
-		3723474924B5617E001514ED /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3723474824B5617E001514ED /* Words.swift */; };
-		3723474B24B563B7001514ED /* RandomConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3723474A24B563B7001514ED /* RandomConfig.swift */; };
-		411A4288914E26094EE270D9276FD938 /* IntValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466BDDF2FAF9C033849C171841B02A3 /* IntValue.swift */; };
-		58CC156568A5BE4216AF29A7E7DC54EE /* Double+StaticFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AEECBAB82061FAC82505EA9321A54D /* Double+StaticFuncs.swift */; };
-		63BFE69EA2BC5914FE7886DDEA4B4BF9 /* random-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC4BCBEE2A8F0F6D7D21CA257BB43A62 /* random-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6790C8751E0A63C4FF2923C3B7AF63EF /* RandomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F4B8E6454732042CF5FB110F0FE4D /* RandomValue.swift */; };
-		6AAE777612BDBAA95558EB77CAF8B4A6 /* IntRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9E17774A16B740EDFA898D12FD139 /* IntRange.swift */; };
-		78C275F6832B3F9D6F0A784AACD7108C /* PercentageRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0033BD9B8F35DB3A31E7A73AAFEF87A /* PercentageRange.swift */; };
-		8CD1974895E86F32ACDE0F0B85D7255B /* random-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 887247A0069E720A2F1CC7D26E8BFE50 /* random-swift-dummy.m */; };
-		922FAFA44968F1C030B1606BA714E02B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A28B65B849257B4D0FA3264886E26 /* Random.swift */; };
-		A2B1DCBE6DAF97DCB00F4B39F86A7A5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE55858DBBC259421F3C51A6735DE51 /* UIKit.framework */; };
-		C51D84FABE1F24C15CA0ACA0E61D0C37 /* Int+StaticFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458BAF578F3B3525FF36C1A523F9E27F /* Int+StaticFuncs.swift */; };
-		D69DC12F49497EA0AAB12B62F02053B8 /* Double+RoundToPlaces+TypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC58DC81C85F77350D39D8D1784060E /* Double+RoundToPlaces+TypeConversions.swift */; };
+		344DAF1C249CED7A050A2A5C5C6231CA /* Double+RoundToPlaces+TypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E1ECDEEC6BAA9ACE243C4A20FE7F28 /* Double+RoundToPlaces+TypeConversions.swift */; };
+		36500245C33AA55058DE3CB450BEFF79 /* random-swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 56338ADCB9408610BD698C46D63D642A /* random-swift.bundle */; };
+		3F0AD70259589D18511EE0F36BD69324 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B47BD10899470E7455132EB5BCE07A /* Words.swift */; };
+		70031A00948AC7BECB9DA1DBE0BCBD6A /* random-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458F70DD8DE4A0E3BBE5A0C8300E85D /* random-swift-dummy.m */; };
+		775CE3C0C5419A27F2F5BFA9848C112D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE55858DBBC259421F3C51A6735DE51 /* UIKit.framework */; };
+		85446686E43BF322F72A9CD1A8EBEEDC /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = F17FD4905138557D6E380055F3888043 /* words.txt */; };
+		879504579393BE6C7202552315639EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636C702B1C08C8463C0B3B3B122283B4 /* Foundation.framework */; };
+		A4648ED5F959B40D2BA86E058B320FB6 /* PercentageRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B18E46EF4C2D72614C821D565C8A359 /* PercentageRange.swift */; };
+		AFDD4DD142A75F61E9AE55054857B5B9 /* Double+StaticFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D80946FA6C96920635FFF354778680 /* Double+StaticFuncs.swift */; };
+		BB50B4804341321CFD1D8B60B07AF09E /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748834BDD580599DF4D71151500C1F88 /* Random.swift */; };
+		C177265A4017C0D10A8FB8E9CA1881BD /* IntRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956FD4C13BFFAA60294EBCB333D6FC0 /* IntRange.swift */; };
+		C1B4B3F13086009B41CD4553004C2B09 /* PercentageValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DA0B903A49D38FECC1CED2C0E86661 /* PercentageValue.swift */; };
+		CF4AA6A33CB1ADEE12C254E038C398EE /* Int+StaticFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B271C3FE7BBE34EDF6D2E78F692558 /* Int+StaticFuncs.swift */; };
+		CFBEE8163A120DE13825C8F2FFB6DD5A /* RandomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F40138E9937C577BD7E7483C42ADD3 /* RandomValue.swift */; };
+		E06CC295957E93501BB634CD53192EF7 /* random-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0966616775E28642026F37BCB614A327 /* random-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB451A8F1262E6358BA3BAF4BE21231A /* IntValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5DB90BD9BCE0CEAA35251D480AEB0 /* IntValue.swift */; };
+		EEAA983A130528EBF7E62C4638451292 /* Int+TypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE433A1A11CBF850ECC339EDA71B37 /* Int+TypeConversions.swift */; };
+		EF0EFDF74244385A3001F6E6A5112372 /* RandomConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7799E06871DDC050E64570247A4666 /* RandomConfig.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		822A570F6DD9D598CE0CD53189E0A9F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7068F93E1893A68E91639B0686B2EFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F36DB090810E7278F8B30D22F74C0E9;
+			remoteInfo = "random-swift-random-swift";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		067832530ACB13CDBA78227A2BA9478B /* random-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "random-swift.modulemap"; sourceTree = "<group>"; };
-		07329BE4ACC8D239DC96EFC4E8FB9E3E /* random-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.release.xcconfig"; sourceTree = "<group>"; };
-		094CD14F57F654585FDB51D8F48F2640 /* Int+TypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+TypeConversions.swift"; sourceTree = "<group>"; };
-		109A28B65B849257B4D0FA3264886E26 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		1466BDDF2FAF9C033849C171841B02A3 /* IntValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntValue.swift; sourceTree = "<group>"; };
-		1CD3AB7591FCD3E3644836279D99BBB2 /* random-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "random-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1DD9E17774A16B740EDFA898D12FD139 /* IntRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntRange.swift; sourceTree = "<group>"; };
-		2DE8ED45C3D3379AF805FE488E1F8CD8 /* random-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-prefix.pch"; sourceTree = "<group>"; };
-		3723474224B55B96001514ED /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
-		3723474824B5617E001514ED /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
-		3723474A24B563B7001514ED /* RandomConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomConfig.swift; sourceTree = "<group>"; };
-		3EFE994E697E32B3C3DBA3B81A02D9A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		458BAF578F3B3525FF36C1A523F9E27F /* Int+StaticFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+StaticFuncs.swift"; sourceTree = "<group>"; };
-		482F4B8E6454732042CF5FB110F0FE4D /* RandomValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RandomValue.swift; sourceTree = "<group>"; };
-		4CC58DC81C85F77350D39D8D1784060E /* Double+RoundToPlaces+TypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+RoundToPlaces+TypeConversions.swift"; sourceTree = "<group>"; };
-		54BABA0FC9FAD3AB06790E18EDEF45C2 /* random-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		0458F70DD8DE4A0E3BBE5A0C8300E85D /* random-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "random-swift-dummy.m"; sourceTree = "<group>"; };
+		0966616775E28642026F37BCB614A327 /* random-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-umbrella.h"; sourceTree = "<group>"; };
+		0DA5DB90BD9BCE0CEAA35251D480AEB0 /* IntValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntValue.swift; sourceTree = "<group>"; };
+		22B47BD10899470E7455132EB5BCE07A /* Words.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		27108D5C8B4D38E6ED5BE66F9186C84B /* ResourceBundle-random-swift-random-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-random-swift-random-swift-Info.plist"; sourceTree = "<group>"; };
+		2D06222C291A7E9D98FA1BC8E33366A2 /* random-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "random-swift.modulemap"; sourceTree = "<group>"; };
+		3029A85BBF9126CF54BF6A99F9066D49 /* random-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "random-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		44EC1BED6238507371B505DF80EBFF2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		48E1ECDEEC6BAA9ACE243C4A20FE7F28 /* Double+RoundToPlaces+TypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+RoundToPlaces+TypeConversions.swift"; sourceTree = "<group>"; };
+		56338ADCB9408610BD698C46D63D642A /* random-swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "random-swift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636C702B1C08C8463C0B3B3B122283B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6956FD4C13BFFAA60294EBCB333D6FC0 /* IntRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntRange.swift; sourceTree = "<group>"; };
+		6BAE433A1A11CBF850ECC339EDA71B37 /* Int+TypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+TypeConversions.swift"; sourceTree = "<group>"; };
+		748834BDD580599DF4D71151500C1F88 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		79768A153B2A0021014BD384A87DB5DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7FE55858DBBC259421F3C51A6735DE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		887247A0069E720A2F1CC7D26E8BFE50 /* random-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "random-swift-dummy.m"; sourceTree = "<group>"; };
-		918C9C223CB5D46884D0E019F22718EF /* random-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "random-swift-Info.plist"; sourceTree = "<group>"; };
-		A0033BD9B8F35DB3A31E7A73AAFEF87A /* PercentageRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PercentageRange.swift; sourceTree = "<group>"; };
+		8B18E46EF4C2D72614C821D565C8A359 /* PercentageRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PercentageRange.swift; sourceTree = "<group>"; };
+		95B271C3FE7BBE34EDF6D2E78F692558 /* Int+StaticFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+StaticFuncs.swift"; sourceTree = "<group>"; };
+		B350D556EF46BCE5204E4AB3D27EE832 /* random-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-prefix.pch"; sourceTree = "<group>"; };
+		B5EFA3466B969B1A35DEBF330EB8194F /* random-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.release.xcconfig"; sourceTree = "<group>"; };
 		BDD2AE13A25C39D793A0689F19B0F110 /* random_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = random_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6AEECBAB82061FAC82505EA9321A54D /* Double+StaticFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+StaticFuncs.swift"; sourceTree = "<group>"; };
-		EC4BCBEE2A8F0F6D7D21CA257BB43A62 /* random-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-umbrella.h"; sourceTree = "<group>"; };
-		F03FF777126BA4103F6F628711933B59 /* PercentageValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PercentageValue.swift; sourceTree = "<group>"; };
-		FA80E5176CE3E8DF854152141DE73217 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CF7799E06871DDC050E64570247A4666 /* RandomConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RandomConfig.swift; sourceTree = "<group>"; };
+		D6DA0B903A49D38FECC1CED2C0E86661 /* PercentageValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PercentageValue.swift; sourceTree = "<group>"; };
+		E0C2D84F7DF42206D2AFEEF4A54B5D42 /* random-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "random-swift-Info.plist"; sourceTree = "<group>"; };
+		F17FD4905138557D6E380055F3888043 /* words.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = words.txt; path = Sources/Assets/words.txt; sourceTree = "<group>"; };
+		F3F40138E9937C577BD7E7483C42ADD3 /* RandomValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RandomValue.swift; sourceTree = "<group>"; };
+		F8D80946FA6C96920635FFF354778680 /* Double+StaticFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+StaticFuncs.swift"; sourceTree = "<group>"; };
+		FC96E13D568470DDCD2AFD4E64EA5406 /* random-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30C9B9CA2BA8D895B4AD10AE3E1727F2 /* Frameworks */ = {
+		87C2842686FCEE9F6908F14AF8C85777 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2940780379F2AA7E3238123CA8ACEE7E /* Foundation.framework in Frameworks */,
-				A2B1DCBE6DAF97DCB00F4B39F86A7A5A /* UIKit.framework in Frameworks */,
+				879504579393BE6C7202552315639EEF /* Foundation.framework in Frameworks */,
+				775CE3C0C5419A27F2F5BFA9848C112D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60CBA7A21EF776F31853823CD724C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		180810EC7B02A3CDA7B8BD57A1133D55 /* Random Values */ = {
+		15B64E1DF08F4DA4128265BBA06BF8E2 /* Int */ = {
 			isa = PBXGroup;
 			children = (
-				482F4B8E6454732042CF5FB110F0FE4D /* RandomValue.swift */,
-				28020F290484C9841471477BD6A857B7 /* Int */,
-				CD48F2425BB7904649D5DD4C2C6A1145 /* Percentage */,
-			);
-			name = "Random Values";
-			path = "Sources/Classes/Random Values";
-			sourceTree = "<group>";
-		};
-		28020F290484C9841471477BD6A857B7 /* Int */ = {
-			isa = PBXGroup;
-			children = (
-				1DD9E17774A16B740EDFA898D12FD139 /* IntRange.swift */,
-				1466BDDF2FAF9C033849C171841B02A3 /* IntValue.swift */,
+				6956FD4C13BFFAA60294EBCB333D6FC0 /* IntRange.swift */,
+				0DA5DB90BD9BCE0CEAA35251D480AEB0 /* IntValue.swift */,
 			);
 			path = Int;
 			sourceTree = "<group>";
 		};
-		3446419946E1AE5D63B00784867C9B20 /* Random Language */ = {
+		1E76D1FECB3ACC2A544F16FDB34D7CFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3723474224B55B96001514ED /* words.txt */,
-				3723474824B5617E001514ED /* Words.swift */,
+				56338ADCB9408610BD698C46D63D642A /* random-swift.bundle */,
+				BDD2AE13A25C39D793A0689F19B0F110 /* random_swift.framework */,
 			);
-			name = "Random Language";
-			path = "Sources/Classes/Random Language";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F80432ED4EC06D2F9485D868EA4A82D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F17FD4905138557D6E380055F3888043 /* words.txt */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		58560FAA2ECC07D7718BFE8270FD6A8E /* iOS */ = {
@@ -107,6 +123,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		59D051DC922B5C378E7D0924FEDB768F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D06222C291A7E9D98FA1BC8E33366A2 /* random-swift.modulemap */,
+				0458F70DD8DE4A0E3BBE5A0C8300E85D /* random-swift-dummy.m */,
+				E0C2D84F7DF42206D2AFEEF4A54B5D42 /* random-swift-Info.plist */,
+				B350D556EF46BCE5204E4AB3D27EE832 /* random-swift-prefix.pch */,
+				0966616775E28642026F37BCB614A327 /* random-swift-umbrella.h */,
+				FC96E13D568470DDCD2AFD4E64EA5406 /* random-swift.debug.xcconfig */,
+				B5EFA3466B969B1A35DEBF330EB8194F /* random-swift.release.xcconfig */,
+				27108D5C8B4D38E6ED5BE66F9186C84B /* ResourceBundle-random-swift-random-swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/random-swift";
+			sourceTree = "<group>";
+		};
 		5A86792A160164C66D1F2ECBA11ABF03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,119 +147,135 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		848BE323295FCC3F1E67DB8C8BFB3E12 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3EFE994E697E32B3C3DBA3B81A02D9A4 /* LICENSE */,
-				1CD3AB7591FCD3E3644836279D99BBB2 /* random-swift.podspec */,
-				FA80E5176CE3E8DF854152141DE73217 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		85F54A4A185D773E723277D876CB2B25 = {
 			isa = PBXGroup;
 			children = (
 				5A86792A160164C66D1F2ECBA11ABF03 /* Frameworks */,
-				D5DC4DACF9397A3E31EAC638B44BB1CC /* Products */,
-				D658337405441E77A7D5D7C7F7026C1F /* random-swift */,
+				1E76D1FECB3ACC2A544F16FDB34D7CFD /* Products */,
+				F30E6840F203BB8D252326C3B0E6FA3F /* random-swift */,
 			);
 			sourceTree = "<group>";
 		};
-		97BF46EDC3C2AB35E44B0B1F7F420F76 /* Random */ = {
+		9D028C0B3DB6463BD3202A20566FBD8B /* Percentage */ = {
 			isa = PBXGroup;
 			children = (
-				109A28B65B849257B4D0FA3264886E26 /* Random.swift */,
+				8B18E46EF4C2D72614C821D565C8A359 /* PercentageRange.swift */,
+				D6DA0B903A49D38FECC1CED2C0E86661 /* PercentageValue.swift */,
 			);
-			name = Random;
-			path = Sources/Classes/Random;
+			path = Percentage;
 			sourceTree = "<group>";
 		};
-		B6870EEEB2E3A8DF2F48298199F05E23 /* extensions */ = {
+		9D19F5A6B18D57E02D83B44A24BC122F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4CC58DC81C85F77350D39D8D1784060E /* Double+RoundToPlaces+TypeConversions.swift */,
-				D6AEECBAB82061FAC82505EA9321A54D /* Double+StaticFuncs.swift */,
-				458BAF578F3B3525FF36C1A523F9E27F /* Int+StaticFuncs.swift */,
-				094CD14F57F654585FDB51D8F48F2640 /* Int+TypeConversions.swift */,
+				79768A153B2A0021014BD384A87DB5DC /* LICENSE */,
+				3029A85BBF9126CF54BF6A99F9066D49 /* random-swift.podspec */,
+				44EC1BED6238507371B505DF80EBFF2A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A204632CB9099471661AD7B602C0E8A5 /* Random Values */ = {
+			isa = PBXGroup;
+			children = (
+				F3F40138E9937C577BD7E7483C42ADD3 /* RandomValue.swift */,
+				15B64E1DF08F4DA4128265BBA06BF8E2 /* Int */,
+				9D028C0B3DB6463BD3202A20566FBD8B /* Percentage */,
+			);
+			name = "Random Values";
+			path = "Sources/Classes/Random Values";
+			sourceTree = "<group>";
+		};
+		A379873C83BDA9E173ACDE217CD7B271 /* Random Language */ = {
+			isa = PBXGroup;
+			children = (
+				22B47BD10899470E7455132EB5BCE07A /* Words.swift */,
+			);
+			name = "Random Language";
+			path = "Sources/Classes/Random Language";
+			sourceTree = "<group>";
+		};
+		ADB5880EAC20D969A3FC2F8F1EB24CA2 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				48E1ECDEEC6BAA9ACE243C4A20FE7F28 /* Double+RoundToPlaces+TypeConversions.swift */,
+				F8D80946FA6C96920635FFF354778680 /* Double+StaticFuncs.swift */,
+				95B271C3FE7BBE34EDF6D2E78F692558 /* Int+StaticFuncs.swift */,
+				6BAE433A1A11CBF850ECC339EDA71B37 /* Int+TypeConversions.swift */,
 			);
 			name = extensions;
 			path = Sources/Classes/extensions;
 			sourceTree = "<group>";
 		};
-		C05D8B61A8CFC1AD3AE08C1A9B2D7B4F /* Support Files */ = {
+		F30E6840F203BB8D252326C3B0E6FA3F /* random-swift */ = {
 			isa = PBXGroup;
 			children = (
-				067832530ACB13CDBA78227A2BA9478B /* random-swift.modulemap */,
-				887247A0069E720A2F1CC7D26E8BFE50 /* random-swift-dummy.m */,
-				918C9C223CB5D46884D0E019F22718EF /* random-swift-Info.plist */,
-				2DE8ED45C3D3379AF805FE488E1F8CD8 /* random-swift-prefix.pch */,
-				EC4BCBEE2A8F0F6D7D21CA257BB43A62 /* random-swift-umbrella.h */,
-				54BABA0FC9FAD3AB06790E18EDEF45C2 /* random-swift.debug.xcconfig */,
-				07329BE4ACC8D239DC96EFC4E8FB9E3E /* random-swift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/random-swift";
-			sourceTree = "<group>";
-		};
-		CD48F2425BB7904649D5DD4C2C6A1145 /* Percentage */ = {
-			isa = PBXGroup;
-			children = (
-				A0033BD9B8F35DB3A31E7A73AAFEF87A /* PercentageRange.swift */,
-				F03FF777126BA4103F6F628711933B59 /* PercentageValue.swift */,
-			);
-			path = Percentage;
-			sourceTree = "<group>";
-		};
-		D5DC4DACF9397A3E31EAC638B44BB1CC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BDD2AE13A25C39D793A0689F19B0F110 /* random_swift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D658337405441E77A7D5D7C7F7026C1F /* random-swift */ = {
-			isa = PBXGroup;
-			children = (
-				B6870EEEB2E3A8DF2F48298199F05E23 /* extensions */,
-				848BE323295FCC3F1E67DB8C8BFB3E12 /* Pod */,
-				97BF46EDC3C2AB35E44B0B1F7F420F76 /* Random */,
-				3446419946E1AE5D63B00784867C9B20 /* Random Language */,
-				180810EC7B02A3CDA7B8BD57A1133D55 /* Random Values */,
-				C05D8B61A8CFC1AD3AE08C1A9B2D7B4F /* Support Files */,
-				3723474A24B563B7001514ED /* RandomConfig.swift */,
+				ADB5880EAC20D969A3FC2F8F1EB24CA2 /* extensions */,
+				9D19F5A6B18D57E02D83B44A24BC122F /* Pod */,
+				F714621DABFF3139C1DBBA8FDDC72163 /* Random */,
+				A379873C83BDA9E173ACDE217CD7B271 /* Random Language */,
+				A204632CB9099471661AD7B602C0E8A5 /* Random Values */,
+				2F80432ED4EC06D2F9485D868EA4A82D /* Resources */,
+				59D051DC922B5C378E7D0924FEDB768F /* Support Files */,
 			);
 			name = "random-swift";
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		F714621DABFF3139C1DBBA8FDDC72163 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				748834BDD580599DF4D71151500C1F88 /* Random.swift */,
+				CF7799E06871DDC050E64570247A4666 /* RandomConfig.swift */,
+			);
+			name = Random;
+			path = Sources/Classes/Random;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		779687538A7069B479115F5309CCB711 /* Headers */ = {
+		C4A1DBA4D1F3800B5D835ACA2D957338 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63BFE69EA2BC5914FE7886DDEA4B4BF9 /* random-swift-umbrella.h in Headers */,
+				E06CC295957E93501BB634CD53192EF7 /* random-swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		94F49A48022A7E847F853E7CD203D229 /* random-swift */ = {
+		3F36DB090810E7278F8B30D22F74C0E9 /* random-swift-random-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BE7DC2164CF4B9B682E5A601EA38930 /* Build configuration list for PBXNativeTarget "random-swift" */;
+			buildConfigurationList = B8C6E7D1650F5443E74C5AD16A68A719 /* Build configuration list for PBXNativeTarget "random-swift-random-swift" */;
 			buildPhases = (
-				779687538A7069B479115F5309CCB711 /* Headers */,
-				CA48930A51A77860F50891B044EB6E79 /* Sources */,
-				30C9B9CA2BA8D895B4AD10AE3E1727F2 /* Frameworks */,
-				2627288A53D7D8FCD7B57D917421A053 /* Resources */,
+				C8AA20DFD5DDE2A98E0E6EA58D598F7E /* Sources */,
+				D60CBA7A21EF776F31853823CD724C6B /* Frameworks */,
+				68C1F52CBCC01E44A51C04BCB0D1E2C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "random-swift-random-swift";
+			productName = "random-swift-random-swift";
+			productReference = 56338ADCB9408610BD698C46D63D642A /* random-swift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		94F49A48022A7E847F853E7CD203D229 /* random-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867FB2F12AEA80130DD5FE69335EB3EB /* Build configuration list for PBXNativeTarget "random-swift" */;
+			buildPhases = (
+				C4A1DBA4D1F3800B5D835ACA2D957338 /* Headers */,
+				B8EDC027E9E35473B974BC3722FA0889 /* Sources */,
+				87C2842686FCEE9F6908F14AF8C85777 /* Frameworks */,
+				C34D816D487ECE5ACB393B54D5D60555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9A0FF458FC89F2815DD1E1514D8600 /* PBXTargetDependency */,
 			);
 			name = "random-swift";
 			productName = "random-swift";
@@ -252,83 +300,75 @@
 				Base,
 			);
 			mainGroup = 85F54A4A185D773E723277D876CB2B25;
-			productRefGroup = D5DC4DACF9397A3E31EAC638B44BB1CC /* Products */;
+			productRefGroup = 1E76D1FECB3ACC2A544F16FDB34D7CFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				94F49A48022A7E847F853E7CD203D229 /* random-swift */,
+				3F36DB090810E7278F8B30D22F74C0E9 /* random-swift-random-swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2627288A53D7D8FCD7B57D917421A053 /* Resources */ = {
+		68C1F52CBCC01E44A51C04BCB0D1E2C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3723474324B55B96001514ED /* words.txt in Resources */,
+				85446686E43BF322F72A9CD1A8EBEEDC /* words.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34D816D487ECE5ACB393B54D5D60555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36500245C33AA55058DE3CB450BEFF79 /* random-swift.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CA48930A51A77860F50891B044EB6E79 /* Sources */ = {
+		B8EDC027E9E35473B974BC3722FA0889 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D69DC12F49497EA0AAB12B62F02053B8 /* Double+RoundToPlaces+TypeConversions.swift in Sources */,
-				58CC156568A5BE4216AF29A7E7DC54EE /* Double+StaticFuncs.swift in Sources */,
-				C51D84FABE1F24C15CA0ACA0E61D0C37 /* Int+StaticFuncs.swift in Sources */,
-				3499382BB338CC41402C610AF8013EAB /* Int+TypeConversions.swift in Sources */,
-				6AAE777612BDBAA95558EB77CAF8B4A6 /* IntRange.swift in Sources */,
-				411A4288914E26094EE270D9276FD938 /* IntValue.swift in Sources */,
-				78C275F6832B3F9D6F0A784AACD7108C /* PercentageRange.swift in Sources */,
-				05BE3DE9A34C8B8AB0BBEA45240E0C24 /* PercentageValue.swift in Sources */,
-				8CD1974895E86F32ACDE0F0B85D7255B /* random-swift-dummy.m in Sources */,
-				3723474924B5617E001514ED /* Words.swift in Sources */,
-				3723474B24B563B7001514ED /* RandomConfig.swift in Sources */,
-				922FAFA44968F1C030B1606BA714E02B /* Random.swift in Sources */,
-				6790C8751E0A63C4FF2923C3B7AF63EF /* RandomValue.swift in Sources */,
+				344DAF1C249CED7A050A2A5C5C6231CA /* Double+RoundToPlaces+TypeConversions.swift in Sources */,
+				AFDD4DD142A75F61E9AE55054857B5B9 /* Double+StaticFuncs.swift in Sources */,
+				CF4AA6A33CB1ADEE12C254E038C398EE /* Int+StaticFuncs.swift in Sources */,
+				EEAA983A130528EBF7E62C4638451292 /* Int+TypeConversions.swift in Sources */,
+				C177265A4017C0D10A8FB8E9CA1881BD /* IntRange.swift in Sources */,
+				EB451A8F1262E6358BA3BAF4BE21231A /* IntValue.swift in Sources */,
+				A4648ED5F959B40D2BA86E058B320FB6 /* PercentageRange.swift in Sources */,
+				C1B4B3F13086009B41CD4553004C2B09 /* PercentageValue.swift in Sources */,
+				70031A00948AC7BECB9DA1DBE0BCBD6A /* random-swift-dummy.m in Sources */,
+				BB50B4804341321CFD1D8B60B07AF09E /* Random.swift in Sources */,
+				EF0EFDF74244385A3001F6E6A5112372 /* RandomConfig.swift in Sources */,
+				CFBEE8163A120DE13825C8F2FFB6DD5A /* RandomValue.swift in Sources */,
+				3F0AD70259589D18511EE0F36BD69324 /* Words.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA20DFD5DDE2A98E0E6EA58D598F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		0AEC0ABB2C1B8656E227AF8CF708F619 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54BABA0FC9FAD3AB06790E18EDEF45C2 /* random-swift.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/random-swift/random-swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/random-swift/random-swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/random-swift/random-swift.modulemap";
-				PRODUCT_MODULE_NAME = random_swift;
-				PRODUCT_NAME = random_swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+/* Begin PBXTargetDependency section */
+		BD9A0FF458FC89F2815DD1E1514D8600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "random-swift-random-swift";
+			target = 3F36DB090810E7278F8B30D22F74C0E9 /* random-swift-random-swift */;
+			targetProxy = 822A570F6DD9D598CE0CD53189E0A9F9 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
 		1225A1BBA3323B38EA09B8E81FAAA35F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -385,6 +425,23 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4C654BF101F1A85C4C77D1AA9583D2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EFA3466B969B1A35DEBF330EB8194F /* random-swift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/random-swift";
+				IBSC_MODULE = random_swift;
+				INFOPLIST_FILE = "Target Support Files/random-swift/ResourceBundle-random-swift-random-swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "random-swift";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -452,9 +509,59 @@
 			};
 			name = Debug;
 		};
-		EF5CC79EB4C4DCDDD12764A45046B419 /* Release */ = {
+		8B6E3071F3ACBB3D63FD6A1D78D20B07 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07329BE4ACC8D239DC96EFC4E8FB9E3E /* random-swift.release.xcconfig */;
+			baseConfigurationReference = FC96E13D568470DDCD2AFD4E64EA5406 /* random-swift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/random-swift/random-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/random-swift/random-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/random-swift/random-swift.modulemap";
+				PRODUCT_MODULE_NAME = random_swift;
+				PRODUCT_NAME = random_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		941C816A0314ED58BFA7FE49E1CBD644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC96E13D568470DDCD2AFD4E64EA5406 /* random-swift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/random-swift";
+				IBSC_MODULE = random_swift;
+				INFOPLIST_FILE = "Target Support Files/random-swift/ResourceBundle-random-swift-random-swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "random-swift";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C69B68AA8C8123C258CC8D78F35F75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EFA3466B969B1A35DEBF330EB8194F /* random-swift.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -489,11 +596,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6BE7DC2164CF4B9B682E5A601EA38930 /* Build configuration list for PBXNativeTarget "random-swift" */ = {
+		867FB2F12AEA80130DD5FE69335EB3EB /* Build configuration list for PBXNativeTarget "random-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0AEC0ABB2C1B8656E227AF8CF708F619 /* Debug */,
-				EF5CC79EB4C4DCDDD12764A45046B419 /* Release */,
+				8B6E3071F3ACBB3D63FD6A1D78D20B07 /* Debug */,
+				C69B68AA8C8123C258CC8D78F35F75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8C6E7D1650F5443E74C5AD16A68A719 /* Build configuration list for PBXNativeTarget "random-swift-random-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941C816A0314ED58BFA7FE49E1CBD644 /* Debug */,
+				4C654BF101F1A85C4C77D1AA9583D2AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

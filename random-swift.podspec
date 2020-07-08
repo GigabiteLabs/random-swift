@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'random-swift'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A utility for randomly generated data, content, and assets.'
   s.description      = <<-DESC
   'random is a utility for generating random data, content, and assets for iOS applications in Swift.'
@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
   }
   
   # inactive settings
-  # s.resource_bundles = {
-  #   'random' => ['Sources/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'random-swift' => ['Sources/Assets/*.{png,txt}']
+   }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
