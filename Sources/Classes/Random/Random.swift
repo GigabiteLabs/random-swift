@@ -82,4 +82,23 @@ public class Random {
             Random.percentage.range = newValue
         }
     }
+    /// A configuration object for `random-swift`.
+    public static var config: RandomConfig {
+        get {
+            return RandomConfig.shared
+        }
+        set {
+            RandomConfig.shared = newValue
+        }
+    }
+    /// A random word from the built-in dictionary of words in macOS.
+    ///
+    /// - Note: This is disabled in release builds by default. To enable, use
+    /// `Random.config.enableWordsForRelease`.
+    ///
+    public static var word: String {
+        get {
+            return Language.shared.words[Random.int.withinRange(IntRange(lower: 0, upper: Language.shared.words.count))]
+        }
+    }
 }

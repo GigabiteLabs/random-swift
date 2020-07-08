@@ -1,6 +1,6 @@
 {
   "name": "random-swift",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A utility for randomly generated data, content, and assets.",
   "description": "'random is a utility for generating random data, content, and assets for iOS applications in Swift.'",
   "homepage": "https://github.com/GigabiteLabs/random-swift.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/GigabiteLabs/random-swift.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "social_media_url": "https://twitter.com/gigabitelabs",
   "platforms": {

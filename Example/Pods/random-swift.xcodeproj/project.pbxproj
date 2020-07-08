@@ -7,92 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C7D2FBE59B8B955777247419DB24116 /* PercentageRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BE821C46A6A993A038765F1B9C5E0C /* PercentageRange.swift */; };
-		1357973C028B1AE10F383DE0BB569FE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636C702B1C08C8463C0B3B3B122283B4 /* Foundation.framework */; };
-		27EFDF6553A5E38ED5A9C4F0E4DDF0B3 /* random-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 448CA185B1D3F2C168D7BFFEF7EEF9F7 /* random-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A8B26D6EC1873F1997993167697EBE2 /* Double+StaticFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE16937817D8FEFD082C4B92F09EA102 /* Double+StaticFuncs.swift */; };
-		3EBB93E7034F2C30F1BC90F2C419ECEC /* Int+StaticFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22587CFDA7441268762CB3FF8151725B /* Int+StaticFuncs.swift */; };
-		42A2D2EF7F643D7E013ED397A51965D9 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F72B69D4587BAAE382C496A552184E /* Random.swift */; };
-		46BCDBC3CE672828632FC0DD55ADE285 /* RandomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429E5E387E2C8FCABC0CECA52EA8743 /* RandomValue.swift */; };
-		533E4F00A698E29A4728F9C0F8ADE4C0 /* IntRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5320F5405B30539BF859D84CC5547905 /* IntRange.swift */; };
-		AAC0EE258A717E96E916D051B3594455 /* PercentageValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F402B97E941295966164F11E60DCA3FF /* PercentageValue.swift */; };
-		B9CD0EC0DD8465F2FB7F17C2E4C33EC9 /* random-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B5FC4D80C320EB7FD4B0B7FC749BFF /* random-swift-dummy.m */; };
-		CA85352ABC686694DFC69CAEDC2EF4D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE55858DBBC259421F3C51A6735DE51 /* UIKit.framework */; };
-		CD1A9A7ED39878E4CB113C556D62FA5F /* Double+RoundToPlaces+TypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BA1F3BAFF4F5CC34D2210018814B2 /* Double+RoundToPlaces+TypeConversions.swift */; };
-		D73C2416BAC8590F68C1DF005CC40F8C /* Int+TypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88734034897A6E532E2605778E7F601F /* Int+TypeConversions.swift */; };
-		DD6FB441B6E5F6C8238E24E687A5B07E /* IntValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173F1ADB92A2C193589DF5D33A08F4B /* IntValue.swift */; };
+		05BE3DE9A34C8B8AB0BBEA45240E0C24 /* PercentageValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03FF777126BA4103F6F628711933B59 /* PercentageValue.swift */; };
+		2940780379F2AA7E3238123CA8ACEE7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636C702B1C08C8463C0B3B3B122283B4 /* Foundation.framework */; };
+		3499382BB338CC41402C610AF8013EAB /* Int+TypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CD14F57F654585FDB51D8F48F2640 /* Int+TypeConversions.swift */; };
+		3723474324B55B96001514ED /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3723474224B55B96001514ED /* words.txt */; };
+		3723474924B5617E001514ED /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3723474824B5617E001514ED /* Words.swift */; };
+		3723474B24B563B7001514ED /* RandomConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3723474A24B563B7001514ED /* RandomConfig.swift */; };
+		411A4288914E26094EE270D9276FD938 /* IntValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466BDDF2FAF9C033849C171841B02A3 /* IntValue.swift */; };
+		58CC156568A5BE4216AF29A7E7DC54EE /* Double+StaticFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AEECBAB82061FAC82505EA9321A54D /* Double+StaticFuncs.swift */; };
+		63BFE69EA2BC5914FE7886DDEA4B4BF9 /* random-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC4BCBEE2A8F0F6D7D21CA257BB43A62 /* random-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6790C8751E0A63C4FF2923C3B7AF63EF /* RandomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F4B8E6454732042CF5FB110F0FE4D /* RandomValue.swift */; };
+		6AAE777612BDBAA95558EB77CAF8B4A6 /* IntRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9E17774A16B740EDFA898D12FD139 /* IntRange.swift */; };
+		78C275F6832B3F9D6F0A784AACD7108C /* PercentageRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0033BD9B8F35DB3A31E7A73AAFEF87A /* PercentageRange.swift */; };
+		8CD1974895E86F32ACDE0F0B85D7255B /* random-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 887247A0069E720A2F1CC7D26E8BFE50 /* random-swift-dummy.m */; };
+		922FAFA44968F1C030B1606BA714E02B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A28B65B849257B4D0FA3264886E26 /* Random.swift */; };
+		A2B1DCBE6DAF97DCB00F4B39F86A7A5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE55858DBBC259421F3C51A6735DE51 /* UIKit.framework */; };
+		C51D84FABE1F24C15CA0ACA0E61D0C37 /* Int+StaticFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458BAF578F3B3525FF36C1A523F9E27F /* Int+StaticFuncs.swift */; };
+		D69DC12F49497EA0AAB12B62F02053B8 /* Double+RoundToPlaces+TypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC58DC81C85F77350D39D8D1784060E /* Double+RoundToPlaces+TypeConversions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A42E7AEDAB34C7D2572215A8CFC323D /* random-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-prefix.pch"; sourceTree = "<group>"; };
-		0D1CE9EAF40E27C2CB5EF3B266D14FED /* random-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.release.xcconfig"; sourceTree = "<group>"; };
-		0EE0ACF082037E0F209806B1920A6C27 /* random-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "random-swift.modulemap"; sourceTree = "<group>"; };
-		1173F1ADB92A2C193589DF5D33A08F4B /* IntValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntValue.swift; sourceTree = "<group>"; };
-		22587CFDA7441268762CB3FF8151725B /* Int+StaticFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+StaticFuncs.swift"; sourceTree = "<group>"; };
-		448CA185B1D3F2C168D7BFFEF7EEF9F7 /* random-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-umbrella.h"; sourceTree = "<group>"; };
-		47C295FECB30CDB77A18A436A782C8A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5320F5405B30539BF859D84CC5547905 /* IntRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntRange.swift; sourceTree = "<group>"; };
-		5B3CB0AE13C44E3DB8B90AC512E93838 /* random-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "random-swift-Info.plist"; sourceTree = "<group>"; };
+		067832530ACB13CDBA78227A2BA9478B /* random-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "random-swift.modulemap"; sourceTree = "<group>"; };
+		07329BE4ACC8D239DC96EFC4E8FB9E3E /* random-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.release.xcconfig"; sourceTree = "<group>"; };
+		094CD14F57F654585FDB51D8F48F2640 /* Int+TypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+TypeConversions.swift"; sourceTree = "<group>"; };
+		109A28B65B849257B4D0FA3264886E26 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		1466BDDF2FAF9C033849C171841B02A3 /* IntValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntValue.swift; sourceTree = "<group>"; };
+		1CD3AB7591FCD3E3644836279D99BBB2 /* random-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "random-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1DD9E17774A16B740EDFA898D12FD139 /* IntRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntRange.swift; sourceTree = "<group>"; };
+		2DE8ED45C3D3379AF805FE488E1F8CD8 /* random-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-prefix.pch"; sourceTree = "<group>"; };
+		3723474224B55B96001514ED /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		3723474824B5617E001514ED /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		3723474A24B563B7001514ED /* RandomConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomConfig.swift; sourceTree = "<group>"; };
+		3EFE994E697E32B3C3DBA3B81A02D9A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		458BAF578F3B3525FF36C1A523F9E27F /* Int+StaticFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+StaticFuncs.swift"; sourceTree = "<group>"; };
+		482F4B8E6454732042CF5FB110F0FE4D /* RandomValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RandomValue.swift; sourceTree = "<group>"; };
+		4CC58DC81C85F77350D39D8D1784060E /* Double+RoundToPlaces+TypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+RoundToPlaces+TypeConversions.swift"; sourceTree = "<group>"; };
+		54BABA0FC9FAD3AB06790E18EDEF45C2 /* random-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		636C702B1C08C8463C0B3B3B122283B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		77F72B69D4587BAAE382C496A552184E /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		78BE821C46A6A993A038765F1B9C5E0C /* PercentageRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PercentageRange.swift; sourceTree = "<group>"; };
 		7FE55858DBBC259421F3C51A6735DE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		88734034897A6E532E2605778E7F601F /* Int+TypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+TypeConversions.swift"; sourceTree = "<group>"; };
-		8EFE473E0E78B08EB98C62407D60B40E /* random-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "random-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9429E5E387E2C8FCABC0CECA52EA8743 /* RandomValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RandomValue.swift; sourceTree = "<group>"; };
-		97B5FC4D80C320EB7FD4B0B7FC749BFF /* random-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "random-swift-dummy.m"; sourceTree = "<group>"; };
-		AD5BD5822FC842D29FD6D580CEF0CF1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BDD2AE13A25C39D793A0689F19B0F110 /* random_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = random_swift.framework; path = "random-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D60BA1F3BAFF4F5CC34D2210018814B2 /* Double+RoundToPlaces+TypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+RoundToPlaces+TypeConversions.swift"; sourceTree = "<group>"; };
-		DC1D99AD3A900A40FC47FE3EB6C64DBF /* random-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "random-swift.debug.xcconfig"; sourceTree = "<group>"; };
-		DE16937817D8FEFD082C4B92F09EA102 /* Double+StaticFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+StaticFuncs.swift"; sourceTree = "<group>"; };
-		F402B97E941295966164F11E60DCA3FF /* PercentageValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PercentageValue.swift; sourceTree = "<group>"; };
+		887247A0069E720A2F1CC7D26E8BFE50 /* random-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "random-swift-dummy.m"; sourceTree = "<group>"; };
+		918C9C223CB5D46884D0E019F22718EF /* random-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "random-swift-Info.plist"; sourceTree = "<group>"; };
+		A0033BD9B8F35DB3A31E7A73AAFEF87A /* PercentageRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PercentageRange.swift; sourceTree = "<group>"; };
+		BDD2AE13A25C39D793A0689F19B0F110 /* random_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = random_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AEECBAB82061FAC82505EA9321A54D /* Double+StaticFuncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+StaticFuncs.swift"; sourceTree = "<group>"; };
+		EC4BCBEE2A8F0F6D7D21CA257BB43A62 /* random-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-umbrella.h"; sourceTree = "<group>"; };
+		F03FF777126BA4103F6F628711933B59 /* PercentageValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PercentageValue.swift; sourceTree = "<group>"; };
+		FA80E5176CE3E8DF854152141DE73217 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37A45C2083BF11140D721A5B29DE6F67 /* Frameworks */ = {
+		30C9B9CA2BA8D895B4AD10AE3E1727F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1357973C028B1AE10F383DE0BB569FE8 /* Foundation.framework in Frameworks */,
-				CA85352ABC686694DFC69CAEDC2EF4D2 /* UIKit.framework in Frameworks */,
+				2940780379F2AA7E3238123CA8ACEE7E /* Foundation.framework in Frameworks */,
+				A2B1DCBE6DAF97DCB00F4B39F86A7A5A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BFFB4E8F45CE35B98A4B0183EC58280 /* Random Values */ = {
+		180810EC7B02A3CDA7B8BD57A1133D55 /* Random Values */ = {
 			isa = PBXGroup;
 			children = (
-				9429E5E387E2C8FCABC0CECA52EA8743 /* RandomValue.swift */,
-				A67B323A9589CE0BD2D44B3CADDC60DF /* Int */,
-				4ABF4C7198F44659F09391948BAC76BF /* Percentage */,
+				482F4B8E6454732042CF5FB110F0FE4D /* RandomValue.swift */,
+				28020F290484C9841471477BD6A857B7 /* Int */,
+				CD48F2425BB7904649D5DD4C2C6A1145 /* Percentage */,
 			);
 			name = "Random Values";
 			path = "Sources/Classes/Random Values";
 			sourceTree = "<group>";
 		};
-		1C7C04226618033E050BD196F3A9BF95 /* extensions */ = {
+		28020F290484C9841471477BD6A857B7 /* Int */ = {
 			isa = PBXGroup;
 			children = (
-				D60BA1F3BAFF4F5CC34D2210018814B2 /* Double+RoundToPlaces+TypeConversions.swift */,
-				DE16937817D8FEFD082C4B92F09EA102 /* Double+StaticFuncs.swift */,
-				22587CFDA7441268762CB3FF8151725B /* Int+StaticFuncs.swift */,
-				88734034897A6E532E2605778E7F601F /* Int+TypeConversions.swift */,
+				1DD9E17774A16B740EDFA898D12FD139 /* IntRange.swift */,
+				1466BDDF2FAF9C033849C171841B02A3 /* IntValue.swift */,
 			);
-			name = extensions;
-			path = Sources/Classes/extensions;
+			path = Int;
 			sourceTree = "<group>";
 		};
-		4ABF4C7198F44659F09391948BAC76BF /* Percentage */ = {
+		3446419946E1AE5D63B00784867C9B20 /* Random Language */ = {
 			isa = PBXGroup;
 			children = (
-				78BE821C46A6A993A038765F1B9C5E0C /* PercentageRange.swift */,
-				F402B97E941295966164F11E60DCA3FF /* PercentageValue.swift */,
+				3723474224B55B96001514ED /* words.txt */,
+				3723474824B5617E001514ED /* Words.swift */,
 			);
-			name = Percentage;
-			path = Percentage;
+			name = "Random Language";
+			path = "Sources/Classes/Random Language";
 			sourceTree = "<group>";
 		};
 		58560FAA2ECC07D7718BFE8270FD6A8E /* iOS */ = {
@@ -112,12 +115,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6B5ACACAFCF0AB3520FCB1247D74E6FA /* Pod */ = {
+		848BE323295FCC3F1E67DB8C8BFB3E12 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AD5BD5822FC842D29FD6D580CEF0CF1E /* LICENSE */,
-				8EFE473E0E78B08EB98C62407D60B40E /* random-swift.podspec */,
-				47C295FECB30CDB77A18A436A782C8A9 /* README.md */,
+				3EFE994E697E32B3C3DBA3B81A02D9A4 /* LICENSE */,
+				1CD3AB7591FCD3E3644836279D99BBB2 /* random-swift.podspec */,
+				FA80E5176CE3E8DF854152141DE73217 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -127,27 +130,53 @@
 			children = (
 				5A86792A160164C66D1F2ECBA11ABF03 /* Frameworks */,
 				D5DC4DACF9397A3E31EAC638B44BB1CC /* Products */,
-				D5FE0ACB7D0B66E45800A282105B13EA /* random-swift */,
+				D658337405441E77A7D5D7C7F7026C1F /* random-swift */,
 			);
 			sourceTree = "<group>";
 		};
-		A615028E30DD467FCC99E8056B2C6FC4 /* Random */ = {
+		97BF46EDC3C2AB35E44B0B1F7F420F76 /* Random */ = {
 			isa = PBXGroup;
 			children = (
-				77F72B69D4587BAAE382C496A552184E /* Random.swift */,
+				109A28B65B849257B4D0FA3264886E26 /* Random.swift */,
 			);
 			name = Random;
 			path = Sources/Classes/Random;
 			sourceTree = "<group>";
 		};
-		A67B323A9589CE0BD2D44B3CADDC60DF /* Int */ = {
+		B6870EEEB2E3A8DF2F48298199F05E23 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
-				5320F5405B30539BF859D84CC5547905 /* IntRange.swift */,
-				1173F1ADB92A2C193589DF5D33A08F4B /* IntValue.swift */,
+				4CC58DC81C85F77350D39D8D1784060E /* Double+RoundToPlaces+TypeConversions.swift */,
+				D6AEECBAB82061FAC82505EA9321A54D /* Double+StaticFuncs.swift */,
+				458BAF578F3B3525FF36C1A523F9E27F /* Int+StaticFuncs.swift */,
+				094CD14F57F654585FDB51D8F48F2640 /* Int+TypeConversions.swift */,
 			);
-			name = Int;
-			path = Int;
+			name = extensions;
+			path = Sources/Classes/extensions;
+			sourceTree = "<group>";
+		};
+		C05D8B61A8CFC1AD3AE08C1A9B2D7B4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				067832530ACB13CDBA78227A2BA9478B /* random-swift.modulemap */,
+				887247A0069E720A2F1CC7D26E8BFE50 /* random-swift-dummy.m */,
+				918C9C223CB5D46884D0E019F22718EF /* random-swift-Info.plist */,
+				2DE8ED45C3D3379AF805FE488E1F8CD8 /* random-swift-prefix.pch */,
+				EC4BCBEE2A8F0F6D7D21CA257BB43A62 /* random-swift-umbrella.h */,
+				54BABA0FC9FAD3AB06790E18EDEF45C2 /* random-swift.debug.xcconfig */,
+				07329BE4ACC8D239DC96EFC4E8FB9E3E /* random-swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/random-swift";
+			sourceTree = "<group>";
+		};
+		CD48F2425BB7904649D5DD4C2C6A1145 /* Percentage */ = {
+			isa = PBXGroup;
+			children = (
+				A0033BD9B8F35DB3A31E7A73AAFEF87A /* PercentageRange.swift */,
+				F03FF777126BA4103F6F628711933B59 /* PercentageValue.swift */,
+			);
+			path = Percentage;
 			sourceTree = "<group>";
 		};
 		D5DC4DACF9397A3E31EAC638B44BB1CC /* Products */ = {
@@ -158,42 +187,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5FE0ACB7D0B66E45800A282105B13EA /* random-swift */ = {
+		D658337405441E77A7D5D7C7F7026C1F /* random-swift */ = {
 			isa = PBXGroup;
 			children = (
-				1C7C04226618033E050BD196F3A9BF95 /* extensions */,
-				6B5ACACAFCF0AB3520FCB1247D74E6FA /* Pod */,
-				A615028E30DD467FCC99E8056B2C6FC4 /* Random */,
-				0BFFB4E8F45CE35B98A4B0183EC58280 /* Random Values */,
-				E503689C11FB013BED555C4ADA7F63BB /* Support Files */,
+				B6870EEEB2E3A8DF2F48298199F05E23 /* extensions */,
+				848BE323295FCC3F1E67DB8C8BFB3E12 /* Pod */,
+				97BF46EDC3C2AB35E44B0B1F7F420F76 /* Random */,
+				3446419946E1AE5D63B00784867C9B20 /* Random Language */,
+				180810EC7B02A3CDA7B8BD57A1133D55 /* Random Values */,
+				C05D8B61A8CFC1AD3AE08C1A9B2D7B4F /* Support Files */,
+				3723474A24B563B7001514ED /* RandomConfig.swift */,
 			);
 			name = "random-swift";
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E503689C11FB013BED555C4ADA7F63BB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0EE0ACF082037E0F209806B1920A6C27 /* random-swift.modulemap */,
-				97B5FC4D80C320EB7FD4B0B7FC749BFF /* random-swift-dummy.m */,
-				5B3CB0AE13C44E3DB8B90AC512E93838 /* random-swift-Info.plist */,
-				0A42E7AEDAB34C7D2572215A8CFC323D /* random-swift-prefix.pch */,
-				448CA185B1D3F2C168D7BFFEF7EEF9F7 /* random-swift-umbrella.h */,
-				DC1D99AD3A900A40FC47FE3EB6C64DBF /* random-swift.debug.xcconfig */,
-				0D1CE9EAF40E27C2CB5EF3B266D14FED /* random-swift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/random-swift";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E3A5C55A9F7041DE3C3FB3F00E3F0D62 /* Headers */ = {
+		779687538A7069B479115F5309CCB711 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27EFDF6553A5E38ED5A9C4F0E4DDF0B3 /* random-swift-umbrella.h in Headers */,
+				63BFE69EA2BC5914FE7886DDEA4B4BF9 /* random-swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,12 +218,12 @@
 /* Begin PBXNativeTarget section */
 		94F49A48022A7E847F853E7CD203D229 /* random-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99A8BBE8BB7961CE0D2E26AC4131EB0D /* Build configuration list for PBXNativeTarget "random-swift" */;
+			buildConfigurationList = 6BE7DC2164CF4B9B682E5A601EA38930 /* Build configuration list for PBXNativeTarget "random-swift" */;
 			buildPhases = (
-				E3A5C55A9F7041DE3C3FB3F00E3F0D62 /* Headers */,
-				D83B5D9BA0F537131CF5A5C3B354395D /* Sources */,
-				37A45C2083BF11140D721A5B29DE6F67 /* Frameworks */,
-				3ED1CFB205B8D40F49C8D0FEAA5CA571 /* Resources */,
+				779687538A7069B479115F5309CCB711 /* Headers */,
+				CA48930A51A77860F50891B044EB6E79 /* Sources */,
+				30C9B9CA2BA8D895B4AD10AE3E1727F2 /* Frameworks */,
+				2627288A53D7D8FCD7B57D917421A053 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -246,37 +262,73 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3ED1CFB205B8D40F49C8D0FEAA5CA571 /* Resources */ = {
+		2627288A53D7D8FCD7B57D917421A053 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3723474324B55B96001514ED /* words.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D83B5D9BA0F537131CF5A5C3B354395D /* Sources */ = {
+		CA48930A51A77860F50891B044EB6E79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD1A9A7ED39878E4CB113C556D62FA5F /* Double+RoundToPlaces+TypeConversions.swift in Sources */,
-				3A8B26D6EC1873F1997993167697EBE2 /* Double+StaticFuncs.swift in Sources */,
-				3EBB93E7034F2C30F1BC90F2C419ECEC /* Int+StaticFuncs.swift in Sources */,
-				D73C2416BAC8590F68C1DF005CC40F8C /* Int+TypeConversions.swift in Sources */,
-				533E4F00A698E29A4728F9C0F8ADE4C0 /* IntRange.swift in Sources */,
-				DD6FB441B6E5F6C8238E24E687A5B07E /* IntValue.swift in Sources */,
-				0C7D2FBE59B8B955777247419DB24116 /* PercentageRange.swift in Sources */,
-				AAC0EE258A717E96E916D051B3594455 /* PercentageValue.swift in Sources */,
-				B9CD0EC0DD8465F2FB7F17C2E4C33EC9 /* random-swift-dummy.m in Sources */,
-				42A2D2EF7F643D7E013ED397A51965D9 /* Random.swift in Sources */,
-				46BCDBC3CE672828632FC0DD55ADE285 /* RandomValue.swift in Sources */,
+				D69DC12F49497EA0AAB12B62F02053B8 /* Double+RoundToPlaces+TypeConversions.swift in Sources */,
+				58CC156568A5BE4216AF29A7E7DC54EE /* Double+StaticFuncs.swift in Sources */,
+				C51D84FABE1F24C15CA0ACA0E61D0C37 /* Int+StaticFuncs.swift in Sources */,
+				3499382BB338CC41402C610AF8013EAB /* Int+TypeConversions.swift in Sources */,
+				6AAE777612BDBAA95558EB77CAF8B4A6 /* IntRange.swift in Sources */,
+				411A4288914E26094EE270D9276FD938 /* IntValue.swift in Sources */,
+				78C275F6832B3F9D6F0A784AACD7108C /* PercentageRange.swift in Sources */,
+				05BE3DE9A34C8B8AB0BBEA45240E0C24 /* PercentageValue.swift in Sources */,
+				8CD1974895E86F32ACDE0F0B85D7255B /* random-swift-dummy.m in Sources */,
+				3723474924B5617E001514ED /* Words.swift in Sources */,
+				3723474B24B563B7001514ED /* RandomConfig.swift in Sources */,
+				922FAFA44968F1C030B1606BA714E02B /* Random.swift in Sources */,
+				6790C8751E0A63C4FF2923C3B7AF63EF /* RandomValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0AEC0ABB2C1B8656E227AF8CF708F619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BABA0FC9FAD3AB06790E18EDEF45C2 /* random-swift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/random-swift/random-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/random-swift/random-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/random-swift/random-swift.modulemap";
+				PRODUCT_MODULE_NAME = random_swift;
+				PRODUCT_NAME = random_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		1225A1BBA3323B38EA09B8E81FAAA35F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -330,8 +382,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -401,9 +452,9 @@
 			};
 			name = Debug;
 		};
-		89F9C4D808839F0BB67EC5D7D2134C14 /* Release */ = {
+		EF5CC79EB4C4DCDDD12764A45046B419 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D1CE9EAF40E27C2CB5EF3B266D14FED /* random-swift.release.xcconfig */;
+			baseConfigurationReference = 07329BE4ACC8D239DC96EFC4E8FB9E3E /* random-swift.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -435,47 +486,14 @@
 			};
 			name = Release;
 		};
-		D1402A971872860EC9F868B6C5F85ED6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC1D99AD3A900A40FC47FE3EB6C64DBF /* random-swift.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/random-swift/random-swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/random-swift/random-swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/random-swift/random-swift.modulemap";
-				PRODUCT_MODULE_NAME = random_swift;
-				PRODUCT_NAME = random_swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99A8BBE8BB7961CE0D2E26AC4131EB0D /* Build configuration list for PBXNativeTarget "random-swift" */ = {
+		6BE7DC2164CF4B9B682E5A601EA38930 /* Build configuration list for PBXNativeTarget "random-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1402A971872860EC9F868B6C5F85ED6 /* Debug */,
-				89F9C4D808839F0BB67EC5D7D2134C14 /* Release */,
+				0AEC0ABB2C1B8656E227AF8CF708F619 /* Debug */,
+				EF5CC79EB4C4DCDDD12764A45046B419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

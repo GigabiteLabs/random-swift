@@ -15,7 +15,7 @@ CACHE_KEYS:
       random-swift:
         :debug: 86d6735949b9a61d8eb21add26f5ed01
         :release: 86d6735949b9a61d8eb21add26f5ed01
-    CHECKSUM: fb0cf7c30733e50595723e384ba84b2607a8eb43
+    CHECKSUM: 33349bc1aa0d26da00d742937c2ab88746aaad79
     FILES:
       - "../../LICENSE"
       - "../../README.md"
@@ -23,6 +23,7 @@ CACHE_KEYS:
       - "../../Sources/Classes/extensions/Double+StaticFuncs.swift"
       - "../../Sources/Classes/extensions/Int+StaticFuncs.swift"
       - "../../Sources/Classes/extensions/Int+TypeConversions.swift"
+      - "../../Sources/Classes/Random Language/word.swift"
       - "../../Sources/Classes/Random Values/Int/IntRange.swift"
       - "../../Sources/Classes/Random Values/Int/IntValue.swift"
       - "../../Sources/Classes/Random Values/Percentage/PercentageRange.swift"
@@ -31,7 +32,7 @@ CACHE_KEYS:
       - "../../Sources/Classes/Random/Random.swift"
     PROJECT_NAME: random-swift
     SPECS:
-      - random-swift (0.1.0)
+      - random-swift (0.1.2)
 OBJECT_VERSION: 46
 PLUGINS:
   cocoapods-stats:
