@@ -15,7 +15,7 @@ CACHE_KEYS:
       random-swift:
         :debug: 86d6735949b9a61d8eb21add26f5ed01
         :release: 86d6735949b9a61d8eb21add26f5ed01
-    CHECKSUM: c6705bfd4ca9578556400ad60ba7a8f9d46c967e
+    CHECKSUM: 6a1f6eef730c55a695a91a209e3915df65907d31
     FILES:
       - "../../LICENSE"
       - "../../README.md"
@@ -34,7 +34,7 @@ CACHE_KEYS:
       - "../../Sources/Classes/Random/RandomConfig.swift"
     PROJECT_NAME: random-swift
     SPECS:
-      - random-swift (0.1.3)
+      - random-swift (0.1.5)
 OBJECT_VERSION: 46
 PLUGINS:
   cocoapods-stats:

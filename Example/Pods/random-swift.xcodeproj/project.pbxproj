@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		344DAF1C249CED7A050A2A5C5C6231CA /* Double+RoundToPlaces+TypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E1ECDEEC6BAA9ACE243C4A20FE7F28 /* Double+RoundToPlaces+TypeConversions.swift */; };
 		36500245C33AA55058DE3CB450BEFF79 /* random-swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 56338ADCB9408610BD698C46D63D642A /* random-swift.bundle */; };
-		3F0AD70259589D18511EE0F36BD69324 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B47BD10899470E7455132EB5BCE07A /* Words.swift */; };
+		3F0AD70259589D18511EE0F36BD69324 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B47BD10899470E7455132EB5BCE07A /* Language.swift */; };
 		70031A00948AC7BECB9DA1DBE0BCBD6A /* random-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458F70DD8DE4A0E3BBE5A0C8300E85D /* random-swift-dummy.m */; };
 		775CE3C0C5419A27F2F5BFA9848C112D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE55858DBBC259421F3C51A6735DE51 /* UIKit.framework */; };
 		85446686E43BF322F72A9CD1A8EBEEDC /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = F17FD4905138557D6E380055F3888043 /* words.txt */; };
@@ -41,7 +41,7 @@
 		0458F70DD8DE4A0E3BBE5A0C8300E85D /* random-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "random-swift-dummy.m"; sourceTree = "<group>"; };
 		0966616775E28642026F37BCB614A327 /* random-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "random-swift-umbrella.h"; sourceTree = "<group>"; };
 		0DA5DB90BD9BCE0CEAA35251D480AEB0 /* IntValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntValue.swift; sourceTree = "<group>"; };
-		22B47BD10899470E7455132EB5BCE07A /* Words.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		22B47BD10899470E7455132EB5BCE07A /* Language.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		27108D5C8B4D38E6ED5BE66F9186C84B /* ResourceBundle-random-swift-random-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-random-swift-random-swift-Info.plist"; sourceTree = "<group>"; };
 		2D06222C291A7E9D98FA1BC8E33366A2 /* random-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "random-swift.modulemap"; sourceTree = "<group>"; };
 		3029A85BBF9126CF54BF6A99F9066D49 /* random-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "random-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -189,7 +189,7 @@
 		A379873C83BDA9E173ACDE217CD7B271 /* Random Language */ = {
 			isa = PBXGroup;
 			children = (
-				22B47BD10899470E7455132EB5BCE07A /* Words.swift */,
+				22B47BD10899470E7455132EB5BCE07A /* Language.swift */,
 			);
 			name = "Random Language";
 			path = "Sources/Classes/Random Language";
@@ -346,7 +346,7 @@
 				BB50B4804341321CFD1D8B60B07AF09E /* Random.swift in Sources */,
 				EF0EFDF74244385A3001F6E6A5112372 /* RandomConfig.swift in Sources */,
 				CFBEE8163A120DE13825C8F2FFB6DD5A /* RandomValue.swift in Sources */,
-				3F0AD70259589D18511EE0F36BD69324 /* Words.swift in Sources */,
+				3F0AD70259589D18511EE0F36BD69324 /* Language.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,9 +29,13 @@ internal class Language {
         }
         #endif
         // get framework bundle
-        let fwBundle = Bundle(for: Language.self)
+        let fwBundlePath = Bundle(for: Language.self).bundlePath
+        guard let fwBundle = Bundle(path: fwBundlePath) else {
+            words = ["::error:: cannot get bundle"]
+            return
+        }
         // read path
-        guard let contentPath = fwBundle.path(forResource: "words", ofType: "txt") else {
+        guard let contentPath = fwBundle.path(forResource: "words", ofType: "txt", inDirectory: "random-swift.bundle") else {
             words = ["::error:: content path is invalid."]
             return
         }
