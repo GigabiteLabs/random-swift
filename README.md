@@ -5,7 +5,7 @@ A utility for randomly generating data, content, and assets for iOS & macOS apps
 [![Version](https://img.shields.io/cocoapods/v/random-swift.svg?style=flat)](https://cocoapods.org/pods/random-swift)
 [![License](https://img.shields.io/cocoapods/l/random-swift.svg?style=flat)](https://cocoapods.org/pods/random-swift)
 [![Platform](https://img.shields.io/cocoapods/p/random-swift.svg?style=flat)](https://cocoapods.org/pods/random-swift)
-
+[![Readme Score](http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/gigabitelabs/random-swift)](http://clayallsopp.github.io/readme-score?url=https://github.com/gigabitelabs/random-swift)
 ## Requirements
 
 - iOS v11.0 or higher
