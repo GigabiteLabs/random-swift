@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'random-swift'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'A utility for randomly generated data, content, and assets.'
   s.description      = <<-DESC
   'random is a utility for generating random data, content, and assets for iOS applications in Swift.'

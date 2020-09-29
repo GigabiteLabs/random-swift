@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 /// An extension for `Double` to allow easy conversion to other formats / values
 extension Double {
