@@ -1,6 +1,0 @@
-framework module random_swift {
-  umbrella header "random-swift-umbrella.h"
-
-  export *
-  module * { export * }
-}
