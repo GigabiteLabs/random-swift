@@ -34,7 +34,7 @@ internal class Language {
         // path is available through `Bundle.module`. In CP
         // we have to jump through some hoops.
         let fwBundlePath: String?
-        #if USE_COCOAPODS_FW_PATHS
+        #if COCOAPODS
         fwBundlePath = Bundle(for: Language.self).bundlePath
         #else
         fwBundlePath = Bundle.module.bundlePath

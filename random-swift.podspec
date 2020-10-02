@@ -22,8 +22,9 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'random-swift' => ['Sources/random-swift/Resources/*.{png,txt}']
   }
-  s.test_spec 'random-swift_tests' do |test_spec|
-      test_spec.requires_app_host = true
-      test_spec.source_files = 'Tests/random-swift-tests/*.{swift}'
-  end
+# broken in latest cocoapods :/
+#  s.test_spec 'random-swift_tests' do |test_spec|
+#      test_spec.requires_app_host = true
+#      test_spec.source_files = 'Tests/random-swift-tests/Sources/*.{swift}'
+#  end
 end
