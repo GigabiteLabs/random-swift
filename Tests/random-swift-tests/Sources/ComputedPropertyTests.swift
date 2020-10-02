@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import random_swift
+import  random_swift
 
 class ComputedPropertyTests: XCTestCase {
      

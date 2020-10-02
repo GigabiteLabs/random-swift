@@ -20,7 +20,10 @@ let package = Package(
         ),
         .testTarget(
             name: "random-swift-tests",
-            dependencies: ["random-swift"]
+            dependencies: ["random-swift"],
+            swiftSettings: [
+               .define("TESTING")
+            ]
         )
     ]
 )

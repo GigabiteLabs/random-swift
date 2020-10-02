@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  random-swift: 66bf8e9ecf537ffcf7b00b5ff9123f7151297515
+  random-swift: 55cfab96f01e2ce58b74f896f172c7cd96a10066
 
 PODFILE CHECKSUM: 6060fdd1c868d406b4a4ab0ec122c335573f4fb9
 
