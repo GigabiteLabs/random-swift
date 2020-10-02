@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "random-swift_Tests"
-               BuildableName = "random-swift_Tests"
-               BlueprintName = "random-swift_Tests"
+               BlueprintIdentifier = "random-swift-tests"
+               BuildableName = "random-swift-tests"
+               BlueprintName = "random-swift-tests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
