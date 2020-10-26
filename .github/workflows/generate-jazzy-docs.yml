@@ -1,5 +1,4 @@
 name: Generate Jazzy Docs
-
 on: 
   release:
     types: [push]
