@@ -12,5 +12,7 @@ before_install:
 script:
 # run cococoapod compatibility tests
 - pod lib lint --verbose
+# debugging
+- echo "current dir-- $(pwd), build dir-- $TRAVIS_BUILD_DIR"
 # run swift-pm compatibility tests
-- ./swift-test
+- $TRAVIS_BUILD_DIR/swift-test
