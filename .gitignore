@@ -39,4 +39,4 @@ Projects/CocoapodsExample/Pods/
 Projects/CocoapodsExample/*.xcworkspace
 
 # Jazzy docs
-docs/
+docs/*
