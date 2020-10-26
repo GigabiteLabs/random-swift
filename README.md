@@ -15,12 +15,25 @@ A utility for randomly generating data, content, and assets for iOS & macOS apps
 
 ## Installation
 
+### Cococapods
 random-swift is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'random-swift'
 ```
+
+### Swift Package Manager
+add this repository to your project via Swift PM:
+- open your project
+- select the project's .xcodeproj in the navigator
+- select your project target
+- select "Swift Packages"
+- enter: https://github.com/GigabiteLabs/random-swift.git and choose the latest release version.
+
+## Documentation
+
+Full public documentation of the framework [can be found here](https://gigabitelabs.github.io/random-swift/).
 
 ## Import Options
 
