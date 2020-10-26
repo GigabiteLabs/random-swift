@@ -2,8 +2,7 @@ name: Generate Jazzy Docs
 
 on: 
   release:
-    types: [published]
-
+    types: [push]
 jobs:
   deploy_docs:
     runs-on: macos-latest
