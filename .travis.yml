@@ -15,4 +15,4 @@ script:
 # debugging
 - echo "current dir-- $(pwd), build dir-- $TRAVIS_BUILD_DIR, contents-- $(ls $TRAVIS_BUILD_DIR)"
 # run swift-pm compatibility tests
-- $TRAVIS_BUILD_DIR/swift-test
+- cd $TRAVIS_BUILD_DIR && sh ./scripts/swift-test
