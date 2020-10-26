@@ -1,7 +1,8 @@
 name: Generate Jazzy Docs
 on: 
-  release:
-    types: [push]
+  push:
+    branches:
+      - gh-pages
 jobs:
   deploy_docs:
     runs-on: macos-latest
