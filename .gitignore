@@ -37,3 +37,6 @@ Carthage/Build
 #
 Projects/CocoapodsExample/Pods/
 Projects/CocoapodsExample/*.xcworkspace
+
+# Jazzy docs
+docs/
