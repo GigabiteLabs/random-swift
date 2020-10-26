@@ -5,14 +5,14 @@
 osx_image: xcode12
 language: swift
 # cache: cocoapods
-#podfile: Projects/CocoapodsExample/Podfile
-#before_install:
-#- gem install cocoapods # Since Travis is not always on latest version
-#- pod install --project-directory=Projects/CocoapodsExample
+podfile: Projects/CocoapodsExample/Podfile
+before_install:
+- gem install cocoapods # Since Travis is not always on latest version
+- pod install --project-directory=Projects/CocoapodsExample
 script:
-# run cococoapod compatibility tests
-#- pod lib lint --verbose
-# debugging
-- echo "current dir-- $(pwd), build dir-- $TRAVIS_BUILD_DIR, contents-- $(ls $TRAVIS_BUILD_DIR)"
 # run swift-pm compatibility tests
+- echo "**** STARTING SPM TESTS *****"
 - cd $TRAVIS_BUILD_DIR && sh ./scripts/swift-test
+# run cococoapod compatibility tests
+- echo "**** STARTING COCOAPODS TESTS *****"
+- pod lib lint --verbose
