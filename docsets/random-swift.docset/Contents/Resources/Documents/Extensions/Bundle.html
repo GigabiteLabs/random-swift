@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bundle Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/Bundle" class="dashAnchor"></a>
+    <a title="Bundle Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">random-swift 1.0.1 Docs</a> (100% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">random-swift Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Bundle Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/IntValue.html">IntValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PercentageValue.html">PercentageValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Random.html">Random</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RandomConfig.html">RandomConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:12random_swift11RandomValueC">RandomValue</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Bundle.html">Bundle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/IntRange.html">IntRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PercentageRange.html">PercentageRange</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Bundle</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">Bundle</span></code></pre>
+
+                </div>
+              </div>
+            <p>An extension for <code>Bundle</code> to enable easy &amp;
+correct referencing of the <code>Bundle</code> for a framework, when a
+resource is needed from within the framework vs main (or other framework) bundle.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So8NSBundleC12random_swiftE9frameworkABSgvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/framework" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So8NSBundleC12random_swiftE9frameworkABSgvpZ">framework</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A computed property representing the bundle for the framework.
+Accessing this property automatically determines the type
+of dependency manager used, either SwiftPM or Cocoapods.</p>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <p>Your project incorporates the framework
+using either SwiftPM or Cocoapods.</p>
+
+</div><div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    <p>If your project does not use SwiftPM or Cocoapods to import
+the framework, this property will return <code>nil</code> and some bundles resources
+may fail to load.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">var</span> <span class="nv">framework</span><span class="p">:</span> <span class="kt">Bundle</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So8NSBundleC12random_swiftE3spmABSgvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/spm" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So8NSBundleC12random_swiftE3spmABSgvpZ">spm</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A computed property representing the correct<code>Bundle</code> when the
+framework is imported using <strong>Swift Package Manager</strong>.</p>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <p>Your project incorporates the framework
+using Cocoapods.</p>
+
+</div><div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    <p>If your project does not use <strong>SwiftPM</strong> for the
+framework, this will return <code>nil</code> and some bundles resources
+may fail to load.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">spm</span><span class="p">:</span> <span class="kt">Bundle</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So8NSBundleC12random_swiftE3podABSgvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/pod" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So8NSBundleC12random_swiftE3podABSgvpZ">pod</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A computed property representing the correct <code>Bundle</code> when the
+framework is imported using <strong>Cocoapods</strong>.</p>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <p>Your project incorporates the framework
+using Cocoapods.</p>
+
+</div><div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    <p>If your project does not use <strong>Cocoapods</strong> for the
+framework, this will return <code>nil</code> and some bundle resources
+may fail to load.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">pod</span><span class="p">:</span> <span class="kt">Bundle</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So8NSBundleC12random_swiftE17podResourceBundleyABSgSSFZ"></a>
+                    <a name="//apple_ref/swift/Method/podResourceBundle(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So8NSBundleC12random_swiftE17podResourceBundleyABSgSSFZ">podResourceBundle(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An accessor function for acessing <code>resourceBundles</code> within a
+Cococapod framework.</p>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <p>Your project incorporates the framework
+using Cocoapods, and the framework uses resourceBundles within
+the framework podspec.</p>
+
+</div><div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    <p>If your project does not use <strong>Cocoapods</strong> for the
+framework or resourceBundles, this will return <code>nil</code> and some
+bundle resources may fail to load.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">podResourceBundle</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bundle</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/GigabiteLabs/random-swift.git" target="_blank" rel="external">GigabiteLabs</a>. All rights reserved. (Last updated: 2020-10-26)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

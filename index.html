@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>random-swift  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a title="random-swift  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">random-swift 1.0.1 Docs</a> (100% documented)</p>
+        <p class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">random-swift Reference</a>
+        <img id="carat" src="img/carat.png" />
+        random-swift  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/IntValue.html">IntValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/PercentageValue.html">PercentageValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Random.html">Random</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/RandomConfig.html">RandomConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/s:12random_swift11RandomValueC">RandomValue</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/Bundle.html">Bundle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/Int.html">Int</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/IntRange.html">IntRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PercentageRange.html">PercentageRange</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h1 id='random-swift' class='heading'>random-swift</h1>
+
+<p>A utility for randomly generating data, content, and assets for iOS &amp; macOS apps written in Swift.</p>
+
+<p><a href="https://travis-ci.com/GigabiteLabs/random-swift.svg?branch=main"><img src="https://travis-ci.com/GigabiteLabs/random-swift.svg?branch=main" alt="CI Status"></a>
+<a href="https://cocoapods.org/pods/random-swift"><img src="https://img.shields.io/cocoapods/v/random-swift.svg?style=flat" alt="Version"></a>
+<a href="https://cocoapods.org/pods/random-swift"><img src="https://img.shields.io/cocoapods/l/random-swift.svg?style=flat" alt="License"></a>
+<a href="https://cocoapods.org/pods/random-swift"><img src="https://img.shields.io/cocoapods/p/random-swift.svg?style=flat" alt="Platform"></a>
+<a href="http://clayallsopp.github.io/readme-score?url=https://github.com/gigabitelabs/random-swift"><img src="http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/gigabitelabs/random-swift" alt="Readme Score"></a>
+<a href="https://codebeat.co/projects/github-com-gigabitelabs-random-swift-main"><img src="https://codebeat.co/badges/74cdcf45-bec8-4abe-bf6c-a689efe6acad" alt="codebeat badge"></a></p>
+<h2 id='requirements' class='heading'>Requirements</h2>
+
+<ul>
+<li>iOS v11.0 or higher</li>
+<li>macOS v10.15 or higher (mac catalyst)</li>
+</ul>
+<h2 id='installation' class='heading'>Installation</h2>
+<h3 id='cococapods' class='heading'>Cococapods</h3>
+
+<p>random-swift is available through <a href="https://cocoapods.org">CocoaPods</a>. To install
+it, simply add the following line to your Podfile:</p>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'random-swift'</span>
+</code></pre>
+<h3 id='swift-package-manager' class='heading'>Swift Package Manager</h3>
+
+<p>add this repository to your project via Swift PM:</p>
+
+<ul>
+<li>open your project</li>
+<li>select the project&rsquo;s .xcodeproj in the navigator</li>
+<li>select your project target</li>
+<li>select &ldquo;Swift Packages&rdquo;</li>
+<li>enter: <a href="https://github.com/GigabiteLabs/random-swift.git">https://github.com/GigabiteLabs/random-swift.git</a> and choose the latest release version.</li>
+</ul>
+<h2 id='documentation' class='heading'>Documentation</h2>
+
+<p>Full public documentation of the framework <a href="https://gigabitelabs.github.io/random-swift/">can be found here</a>.</p>
+<h2 id='import-options' class='heading'>Import Options</h2>
+<h3 id='import-into-entire-project' class='heading'>Import into entire project</h3>
+
+<p>Open <code>AppDelegate.swift</code></p>
+
+<p>Add an exported import statement to the top of the class like so:</p>
+<pre class="highlight swift"><code><span class="kd">@_exported</span> <span class="kd">import</span> <span class="n">random_swift</span>
+</code></pre>
+
+<p>The framework is now accessible in every class in your project.</p>
+
+<p><strong>Note:</strong> There are some <a href="https://forums.swift.org/t/exported-and-fixing-import-visibility/9415">differing opinions</a> about <code>@_exported import</code>, namely, the risk of object and class <a href="https://stackoverflow.com/questions/25231650/swifts-standard-library-and-name-collision">name collisions</a> between frameworks, however, if you don’t have any issues with the exported import approach in your project, you’re gonna be alright, and the convenience trade-off is probably worth it.</p>
+<h3 id='import-into-class-or-file' class='heading'>Import into class or file</h3>
+
+<p>After installing, import into your class:</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="n">random_swift</span>
+</code></pre>
+<h2 id='usage' class='heading'>Usage</h2>
+
+<p>Currently supported:</p>
+<h3 id='global-accessibility-amp-persistent-configuration' class='heading'>Global Accessibility &amp; Persistent Configuration</h3>
+
+<ul>
+<li>Security &amp; true randomness assured by leveraging the underlying <code>arc4random()</code> generator built into swift</li>
+<li><p><code><a href="Classes/Random.html">Random</a></code> is available as a shared instance within the imported scope (class, project, etc.)</p>
+<pre class="highlight swift"><code><span class="c1">// access it with:</span>
+<span class="kt">Random</span><span class="o">.</span><span class="p">(</span><span class="n">type</span><span class="p">)</span>
+</code></pre></li>
+<li><p>A configuration set persists on the shared instance for the duration of the application session</p>
+<pre class="highlight swift"><code><span class="c1">// setup an IntRange configuration</span>
+<span class="k">let</span> <span class="nv">intRange</span> <span class="o">=</span> <span class="kt">IntRange</span><span class="p">(</span><span class="nv">lower</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span> <span class="nv">upper</span><span class="p">:</span> <span class="mi">100</span><span class="p">)</span>
+
+<span class="c1">// setup a percentage range configuration</span>
+<span class="k">let</span> <span class="nv">pctRange</span> <span class="o">=</span> <span class="kt">PercentageRange</span><span class="p">(</span><span class="nv">min</span><span class="p">:</span> <span class="mf">0.10</span><span class="p">,</span> <span class="nv">max</span><span class="p">:</span> <span class="mf">0.98</span><span class="p">)</span>
+
+<span class="c1">// assign the configurations</span>
+<span class="kt">Random</span><span class="o">.</span><span class="n">intRange</span> <span class="o">=</span> <span class="n">intRange</span>
+<span class="kt">Random</span><span class="o">.</span><span class="n">percentageRange</span> <span class="o">=</span> <span class="n">pctRange</span>
+</code></pre>
+
+<p>While this shared instance is still in memory (i.e. the app is still    running / not terminated or backgrounded), the <em>last used</em> configuration    will be used as the default configuration for any calls for random values   that need a range or an upper-bound limit.</p></li>
+<li><p>You can dynamically use new range configurations if you need to change them on the fly for new requests</p>
+
+<p>An example retrieving a new randomValue with a new range config:</p>
+<pre class="highlight swift"><code><span class="c1">// setup:</span>
+<span class="k">let</span> <span class="nv">newIntRange</span> <span class="o">=</span> <span class="kt">IntRange</span><span class="p">(</span><span class="nv">lower</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="nv">upper</span><span class="p">:</span> <span class="mi">5000</span><span class="p">)</span>
+
+<span class="c1">// get a random int value within the range</span>
+<span class="k">let</span> <span class="nv">rangedInt</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">int</span><span class="o">.</span><span class="nf">withinRange</span><span class="p">(</span><span class="nv">range</span><span class="p">:</span> <span class="n">newIntRange</span><span class="p">)</span>
+
+<span class="c1">// get a random int value anywhere between 0 and the newIntRange.upper</span>
+<span class="kt">Random</span><span class="o">.</span><span class="n">int</span><span class="o">.</span><span class="nf">withUpperLimit</span><span class="p">(</span><span class="nv">of</span><span class="p">:</span> <span class="n">newIntRange</span><span class="p">)</span>
+</code></pre>
+
+<p><br></p></li>
+</ul>
+<h3 id='random-word-generation' class='heading'>Random Word Generation</h3>
+
+<p>Random supports true random word generation.</p>
+
+<p>Random words are generated from a static dictionary containing 235,886 words, all of which are packaged by default with macOS. </p>
+
+<p><strong>Functions</strong></p>
+
+<ul>
+<li><p>Get a random Word:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">randomWord</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">word</span>
+</code></pre></li>
+</ul>
+
+<p><br></p>
+<h3 id='random-value-generation' class='heading'>Random Value Generation</h3>
+<h4 id='random-ints' class='heading'>Random Ints</h4>
+
+<p><strong>Functions</strong></p>
+
+<ul>
+<li><p>Get a random <code>Int</code>:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">randomInt</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">int</span><span class="o">.</span><span class="nf">value</span><span class="p">()</span>
+</code></pre></li>
+<li><p>Get a random <code>Int</code> below a given <code><a href="Structs/IntRange.html">IntRange</a></code> upper-bound limit:</p>
+<pre class="highlight swift"><code><span class="c1">// setup a range</span>
+<span class="k">let</span> <span class="nv">range</span> <span class="o">=</span> <span class="kt">IntRange</span><span class="p">(</span><span class="nv">lower</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="nv">upper</span><span class="p">:</span> <span class="mi">200</span><span class="p">)</span>
+
+<span class="c1">// get a random int value within the range</span>
+<span class="k">let</span> <span class="nv">rangedInt</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">int</span><span class="o">.</span><span class="nf">withinRange</span><span class="p">(</span><span class="nv">range</span><span class="p">:</span> <span class="n">range</span><span class="p">)</span>
+</code></pre></li>
+<li><p>Get a random <code>Int</code> value within a given range, between both upper and lower bounds:</p>
+<pre class="highlight swift"><code><span class="c1">// setup a range</span>
+<span class="k">let</span> <span class="nv">range</span> <span class="o">=</span> <span class="kt">IntRange</span><span class="p">(</span><span class="nv">lower</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="nv">upper</span><span class="p">:</span> <span class="mi">250</span><span class="p">)</span>
+
+<span class="c1">// get a random int value between range.lower and range.upper</span>
+<span class="k">let</span> <span class="nv">randomWithinRange</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">int</span><span class="o">.</span><span class="nf">withinRange</span><span class="p">(</span><span class="nv">range</span><span class="p">:</span> <span class="n">newIntRange</span><span class="p">)</span>
+</code></pre></li>
+</ul>
+
+<p><strong>Computed Properties</strong></p>
+
+<ul>
+<li><p>Get a random <code>Int</code>:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">randomInt</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">int</span><span class="o">.</span><span class="n">value</span>
+</code></pre></li>
+</ul>
+
+<p>Note: The following computed properties require configuration to be in place beforehand. </p>
+
+<p>These will always return 0 if:</p>
+<pre class="highlight plaintext"><code>- A config has not been set by using a function call
+- or by directly configuring `Random.intRange`.
+</code></pre>
+
+<p>Usage is basically the same as a function call:</p>
+
+<ul>
+<li><p>Get a random <code>Int</code> below a given <code><a href="Structs/IntRange.html">IntRange</a></code> upper-bound limit:</p>
+<pre class="highlight swift"><code><span class="c1">// setup a range &amp; configure</span>
+<span class="k">let</span> <span class="nv">range</span> <span class="o">=</span> <span class="kt">IntRange</span><span class="p">(</span><span class="nv">lower</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="nv">upper</span><span class="p">:</span> <span class="mi">200</span><span class="p">)</span>
+<span class="kt">Random</span><span class="o">.</span><span class="n">intRange</span> <span class="o">=</span> <span class="n">range</span>
+
+<span class="c1">// get a random int value within the range</span>
+<span class="k">let</span> <span class="nv">rangedInt</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">int</span><span class="o">.</span><span class="n">withinUpperLimit</span>
+</code></pre></li>
+<li><p>Get a random <code>Int</code> value within a given range, between both upper and lower bounds:</p>
+<pre class="highlight swift"><code><span class="c1">// setup a range &amp; configure</span>
+<span class="k">let</span> <span class="nv">range</span> <span class="o">=</span> <span class="kt">IntRange</span><span class="p">(</span><span class="nv">lower</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="nv">upper</span><span class="p">:</span> <span class="mi">250</span><span class="p">)</span>
+<span class="kt">Random</span><span class="o">.</span><span class="n">intRange</span> <span class="o">=</span> <span class="n">range</span>
+
+<span class="c1">// get a random int value between range.lower and range.upper</span>
+<span class="k">let</span> <span class="nv">randomWithinRange</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">int</span><span class="o">.</span><span class="n">withinRange</span>
+<span class="c1">// randomWithinRange == some Int between 10 and 200, exclusive of 200 (so max 199)</span>
+</code></pre></li>
+</ul>
+<h4 id='random-percentages' class='heading'>Random Percentages</h4>
+
+<p><strong>Functions</strong></p>
+
+<ul>
+<li><p>Get a random percentage (aka <code>Double</code>) with optional max decimal place rounding:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">randomPct</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">percentage</span><span class="o">.</span><span class="nf">value</span><span class="p">(</span><span class="nv">roundedTo</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span>
+<span class="c1">// returns percentage with no more than 5 place values</span>
+<span class="c1">// e.g. 0.45369</span>
+</code></pre></li>
+<li><p>Get a random percentage below a given <code><a href="Structs/PercentageRange.html">PercentageRange</a></code> max limit, optionally rounding to a max number of decimal place values:</p>
+<pre class="highlight swift"><code><span class="c1">// setup a range</span>
+<span class="k">let</span> <span class="nv">range</span> <span class="o">=</span> <span class="kt">PercentageRange</span><span class="p">(</span><span class="nv">lower</span><span class="p">:</span> <span class="mf">0.10</span><span class="p">,</span> <span class="nv">upper</span><span class="p">:</span> <span class="mf">0.999</span><span class="p">)</span>
+
+<span class="c1">// get a random int value within the range</span>
+<span class="k">let</span> <span class="nv">rangedPct</span><span class="p">:</span> <span class="kt">Double</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">percentage</span><span class="o">.</span><span class="nf">withUpperLimit</span><span class="p">(</span><span class="nv">of</span><span class="p">:</span> <span class="n">range</span><span class="p">,</span> <span class="nv">maxDecimalPlaces</span><span class="p">:</span> <span class="mi">3</span><span class="p">)</span>
+<span class="c1">// returns percentage with no more than 3 decimal places</span>
+<span class="c1">// e.g. 0.294</span>
+</code></pre></li>
+<li><p>Get a random percentage value within a given range, between min and max limits:</p>
+<pre class="highlight swift"><code><span class="c1">// setup a range</span>
+<span class="k">let</span> <span class="nv">range</span> <span class="o">=</span> <span class="kt">PercentageRange</span><span class="p">(</span><span class="nv">lower</span><span class="p">:</span> <span class="mf">0.15</span><span class="p">,</span> <span class="nv">upper</span><span class="p">:</span> <span class="mf">0.322</span><span class="p">)</span>
+
+<span class="c1">// get a random int value between range.lower and range.upper</span>
+<span class="k">let</span> <span class="nv">randomPctWithinRange</span><span class="p">:</span> <span class="kt">Double</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">percentage</span><span class="o">.</span><span class="nf">withinRange</span><span class="p">(</span><span class="n">range</span><span class="p">,</span> <span class="nv">maxDecimalPlaces</span><span class="p">:</span> <span class="mi">1</span><span class="p">)</span>
+<span class="c1">// returns percentage with no more than 1 decimal place</span>
+<span class="c1">// e.g. 0.6</span>
+</code></pre></li>
+</ul>
+
+<p><strong>Computed Properties</strong></p>
+
+<ul>
+<li><p>Get a random percentage (aka <code>Double</code>):</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">randomPct</span><span class="p">:</span> <span class="kt">Double</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">percentage</span><span class="o">.</span><span class="n">value</span>
+</code></pre></li>
+</ul>
+
+<p>Note: the following computed properties require configuration to be in place beforehand. </p>
+
+<p>These will always return 0.0 if:</p>
+<pre class="highlight plaintext"><code>- A config has not been set by using a function call
+- or by directly configuring `Random.percentageRange`.
+</code></pre>
+
+<p>Usage is basically the same as a function call:</p>
+
+<ul>
+<li><p>Get a random percentage below a given <code><a href="Structs/PercentageRange.html">PercentageRange</a></code> max limit:</p>
+<pre class="highlight swift"><code><span class="c1">// setup a range &amp; configure shared instance</span>
+<span class="k">let</span> <span class="nv">range</span> <span class="o">=</span> <span class="kt">PercentageRange</span><span class="p">(</span><span class="nv">lower</span><span class="p">:</span> <span class="mf">0.15</span><span class="p">,</span> <span class="nv">upper</span><span class="p">:</span> <span class="mf">0.322</span><span class="p">)</span>
+<span class="kt">Random</span><span class="o">.</span><span class="n">intRange</span> <span class="o">=</span> <span class="n">range</span>
+
+<span class="c1">// get a random percentage value within the range</span>
+<span class="k">let</span> <span class="nv">rangedPct</span><span class="p">:</span> <span class="kt">Double</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">percentage</span><span class="o">.</span><span class="n">withUpperLimit</span>
+</code></pre></li>
+<li><p>Get a random percentage value within a given range, between min and max limits:</p>
+<pre class="highlight swift"><code><span class="c1">// setup a range &amp; configure</span>
+<span class="k">let</span> <span class="nv">range</span> <span class="o">=</span> <span class="kt">PercentageRange</span><span class="p">(</span><span class="nv">lower</span><span class="p">:</span> <span class="mf">0.01</span><span class="p">,</span> <span class="nv">upper</span><span class="p">:</span> <span class="mf">0.9</span><span class="p">)</span>
+<span class="kt">Random</span><span class="o">.</span><span class="n">intRange</span> <span class="o">=</span> <span class="n">range</span>
+
+<span class="c1">// get a random int value between range.lower and range.upper</span>
+<span class="k">let</span> <span class="nv">randomPctWithinRange</span><span class="p">:</span> <span class="kt">Double</span> <span class="o">=</span> <span class="kt">Random</span><span class="o">.</span><span class="n">percentage</span><span class="o">.</span><span class="n">withinRange</span>
+<span class="c1">// randomWithinRange == some Int between 0.01 and 0.9, exclusive of 0.9 (so max 0.89)</span>
+</code></pre></li>
+</ul>
+<h2 id='authors' class='heading'>Authors</h2>
+
+<p>Original Author:
+<a href="https://github.com/gigabitelabs/danburkhardt">Dan Burkhardt</a>
+Founder &amp; Lead Engineer @<a href="https://gigabitelabs.com">GigabiteLabs</a>
+Twitter: <a href="https://twitter.com/gigabitedan">@GigabiteDan</a></p>
+
+<p>Contributors:
+(nobody else yet ;) </p>
+<h2 id='license' class='heading'>License</h2>
+
+<p>random-swift is available under the MIT license. See the LICENSE file for more info.</p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/GigabiteLabs/random-swift.git" target="_blank" rel="external">GigabiteLabs</a>. All rights reserved. (Last updated: 2020-10-26)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
