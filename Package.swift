@@ -16,13 +16,17 @@ let package = Package(
             name: "random-swift",
             resources: [
                 .process("Resources/words.txt"),
+            ],
+            swiftSettings: [
+               .define("SPM")
             ]
         ),
         .testTarget(
             name: "random-swift-tests",
             dependencies: ["random-swift"],
+            path: "Projects/CocoapodsExample/random-swift-ExampleTests/Sources",
             swiftSettings: [
-               .define("TESTING")
+               .define("SPMTEST")
             ]
         )
     ]

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'random-swift'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A utility for randomly generated data, content, and assets.'
   s.description      = <<-DESC
   'random-swift is a utility for generating random data, content, and assets for iOS applications & XCTests in Swift.'
@@ -19,12 +19,10 @@ Pod::Spec.new do |s|
   }
   s.xcconfig = {'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) COCOAPODS=1 USE_COCOAPODS_FW_PATHS=1' }
   s.source_files = 'Sources/random-swift/**/*'
-  s.resource_bundles = {
-    'random-swift' => ['Sources/random-swift/Resources/*.{png,txt}']
-  }
-# broken in latest cocoapods :/
-#  s.test_spec 'random-swift_tests' do |test_spec|
-#      test_spec.requires_app_host = true
-#      test_spec.source_files = 'Tests/random-swift-tests/Sources/*.{swift}'
-#  end
+  s.resources = "Sources/random-swift/Resources/*.{txt}"
+
+ s.test_spec 'random-swift_tests' do |test_spec|
+      test_spec.requires_app_host = true
+      test_spec.source_files = 'Projects/CocoapodsExample/random-swift-ExampleTests/Sources/*.{swift}'
+  end
 end

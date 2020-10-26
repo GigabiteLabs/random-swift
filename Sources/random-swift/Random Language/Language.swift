@@ -29,22 +29,7 @@ internal class Language {
         }
         #endif
         
-        // SwiftPM & Cocoapods handle framework bundle paths
-        // differently. In SPM's case, a convenient resource
-        // path is available through `Bundle.module`. In CP
-        // we have to jump through some hoops.
-        let fwBundlePath: String?
-        #if COCOAPODS
-        fwBundlePath = Bundle(for: Language.self).bundlePath
-        #else
-        #if TESTING
-            fwBundlePath = Bundle.test.bundlePath
-            #else
-            fwBundlePath = Bundle.module.bundlePath
-            #endif
-        #endif
-        
-        guard let fwBundle = Bundle(path: fwBundlePath!) else {
+        guard let fwBundle = Bundle.framework else {
             words = ["::error:: cannot get bundle"]
             return
         }

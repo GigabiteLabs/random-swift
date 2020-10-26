@@ -10,10 +10,14 @@ import XCTest
 #endif
 import random_swift
 
-class RandomWordTests: XCTestCase {
+class RS3RandomWordTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        #if SPMTEST
+        print("SPMTEST set in the env")
+        print("test resource bundle: \(Bundle(for: RS3RandomWordTests.self).bundlePath)")
+        #endif
     }
 
     override func tearDownWithError() throws {
@@ -24,7 +28,6 @@ class RandomWordTests: XCTestCase {
         
         for _ in 0 ... 235886 {
             let randomWord = Random.word
-            //print("retrieved random word: \(randomWord)")
             XCTAssertFalse(randomWord.contains("::error::"))
         }
     }

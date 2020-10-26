@@ -14,7 +14,7 @@ target 'random-swift_Example' do
   # Pod install settings
   use_frameworks!
   pod 'random-swift', :path => '../../'
-  target 'random-swift_Tests' do
+  target 'random-swift-ExampleTests' do
     inherit! :search_paths
   end
 end

@@ -6,9 +6,9 @@
 //
 
 import XCTest
-import  random_swift
+import random_swift
 
-class ComputedPropertyTests: XCTestCase {
+class RS1ComputedPropertyTests: XCTestCase {
      
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

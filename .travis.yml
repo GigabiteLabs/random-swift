@@ -2,12 +2,15 @@
 # * https://www.objc.io/issues/6-build-tools/travis-ci/
 # * https://github.com/supermarin/xcpretty#usage
 
-osx_image: xcode11.5
+osx_image: xcode12
 language: objective-c
 # cache: cocoapods
-podfile: Example/Podfile
+podfile: Projects/CocoapodsExample/Podfile
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
-- pod install --project-directory=Example
+- pod install --project-directory=Projects/CocoapodsExample
 script:
+# run cococoapod compatibility tests
 - pod lib lint --verbose
+# run swift-pm compatibility tests
+- ./swift-test

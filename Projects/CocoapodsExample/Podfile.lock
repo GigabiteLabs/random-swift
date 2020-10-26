@@ -1,5 +1,5 @@
 PODS:
-  - random-swift (1.0.0)
+  - random-swift (1.0.1)
 
 DEPENDENCIES:
   - random-swift (from `../../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  random-swift: 55cfab96f01e2ce58b74f896f172c7cd96a10066
+  random-swift: 7e338af36c478316bdf55b7a24d569f756d785be
 
-PODFILE CHECKSUM: 6060fdd1c868d406b4a4ab0ec122c335573f4fb9
+PODFILE CHECKSUM: 0bea5696326438d8e9398148f6cc4410922f36f3
 
-COCOAPODS: 1.10.0.rc.1
+COCOAPODS: 1.10.0

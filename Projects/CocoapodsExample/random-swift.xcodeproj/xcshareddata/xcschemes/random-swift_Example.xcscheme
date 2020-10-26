@@ -26,8 +26,36 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "NO"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "TESTING"
+            value = "TRUE"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "94F49A48022A7E847F853E7CD203D229"
+            BuildableName = "random_swift.framework"
+            BlueprintName = "random-swift"
+            ReferencedContainer = "container:Pods/random-swift.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "37D74ABD2546464600CEE5BD"
+               BuildableName = "random-swift-ExampleTests.xctest"
+               BlueprintName = "random-swift-ExampleTests"
+               ReferencedContainer = "container:random-swift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
