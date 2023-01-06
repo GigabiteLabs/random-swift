@@ -1,4 +1,5 @@
 # random-swift
+
 A utility for randomly generating data, content, and assets for iOS & macOS apps written in Swift.
 
 [![CI Status](https://travis-ci.com/GigabiteLabs/random-swift.svg?branch=main)](https://travis-ci.com/GigabiteLabs/random-swift.svg?branch=main)
@@ -7,6 +8,8 @@ A utility for randomly generating data, content, and assets for iOS & macOS apps
 [![Platform](https://img.shields.io/cocoapods/p/random-swift.svg?style=flat)](https://cocoapods.org/pods/random-swift)
 [![Readme Score](http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/gigabitelabs/random-swift)](http://clayallsopp.github.io/readme-score?url=https://github.com/gigabitelabs/random-swift)
 [![codebeat badge](https://codebeat.co/badges/74cdcf45-bec8-4abe-bf6c-a689efe6acad)](https://codebeat.co/projects/github-com-gigabitelabs-random-swift-main)
+
+[BETA]: this framework is not a complete set of features and is in active development. check the examples documented in this readme for confirmation of what is available.
 
 ## Requirements
 
