@@ -10,7 +10,7 @@ import Foundation
 /// A value generator class for random int values.
 public class IntValue: RandomValue {
     internal var range: IntRange?
-    /// Returns a random Int using `arc4random`
+    /// Returns a random Int using ``arc4random``.
     public var value: Int {
         return randomInt()
     }

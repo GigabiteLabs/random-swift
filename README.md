@@ -55,6 +55,7 @@ The framework is now accessible in every class in your project.
 **Note:** There are some [differing opinions](https://forums.swift.org/t/exported-and-fixing-import-visibility/9415) about `@_exported import`, namely, the risk of object and class [name collisions](https://stackoverflow.com/questions/25231650/swifts-standard-library-and-name-collision) between frameworks, however, if you don’t have any issues with the exported import approach in your project, you’re gonna be alright, and the convenience trade-off is probably worth it.
 
 ### Import into class or file
+
 After installing, import into your class:
 
 ```swift
@@ -62,18 +63,20 @@ import random_swift
 ```
 
 ## Usage
+
 Currently supported:
 
 ### Global Accessibility & Persistent Configuration
 
 - Security & true randomness assured by leveraging the underlying `arc4random()` generator built into swift
+
 - `Random` is available as a shared instance within the imported scope (class, project, etc.)
 
 	```swift
 	// access it with:
-	Random.(type)
+	Random.$type
 	```
-
+    
 - A configuration set persists on the shared instance for the duration of the application session
 
 	```swift
@@ -103,9 +106,17 @@ Currently supported:
 	// get a random int value anywhere between 0 and the newIntRange.upper
 	Random.int.withUpperLimit(of: newIntRange)
 	```
+
+### Notes:
+
+- All `IntRange` and numerical return types are **exclusive** of the upper-bound:
+    - For example, if the upper-bound target value is `200` and the lower-bound value is `0`, the only possible values that can return are `0` through `199`.
+        - If the upper-bound *must* include `200` as a possible return value, you simply need to setup the upper-bound as `(upper-bound-target-value) + 1`
+
+
 <br>
 
-### Random Word Generation
+### Random Words
 
 Random supports true random word generation.
 
@@ -120,9 +131,15 @@ Random words are generated from a static dictionary containing 235,886 words, al
     ```
 
 <br>
-### Random Value Generation
 
-#### Random Ints
+
+
+<br>
+
+### Random Values
+
+#### Random.int
+
 **Functions**
 
 - Get a random `Int`:
@@ -131,24 +148,14 @@ Random words are generated from a static dictionary containing 235,886 words, al
 	let randomInt = Random.int.value()
 	```
 
-- Get a random `Int` below a given `IntRange` upper-bound limit:
+- Get a random `Int` value within a given range between upper and lower bounds, :
 
 	```swift
 	// setup a range
-	let range = IntRange(lower: 10, upper: 200)
-	
-	// get a random int value within the range
-	let rangedInt = Random.int.withinRange(range: range)
-	```
-
-- Get a random `Int` value within a given range, between both upper and lower bounds:
-
-	```swift
-	// setup a range
-	let range = IntRange(lower: 10, upper: 250)
+	let newIntRange = IntRange(lower: 10, upper: 250)
 	
 	// get a random int value between range.lower and range.upper
-	let randomWithinRange: Int = Random.int.withinRange(range: newIntRange)
+	let randomIntWithinRange: Int = Random.int.withinRange(range: newIntRange)
 	```
 
 **Computed Properties**
@@ -179,7 +186,7 @@ Usage is basically the same as a function call:
 	let rangedInt = Random.int.withinUpperLimit
 	```
 
-- Get a random `Int` value within a given range, between both upper and lower bounds:
+- Get a random `Int` value within a given range between lower and upper bounds:
 
 	```swift
 	// setup a range & configure
@@ -191,10 +198,11 @@ Usage is basically the same as a function call:
 	// randomWithinRange == some Int between 10 and 200, exclusive of 200 (so max 199)
 	```
 
-#### Random Percentages
+#### Random.percentage
+
 **Functions**
 
-- Get a random percentage (aka `Double`) with optional max decimal place rounding:
+- Get a random percentage (as `Double`), rounded (optional) to a maximum decimal place value:
 
 	```swift
 	let randomPct = Random.percentage.value(roundedTo: 5)
@@ -202,7 +210,7 @@ Usage is basically the same as a function call:
 	// e.g. 0.45369
 	```
 
-- Get a random percentage below a given `PercentageRange` max limit, optionally rounding to a max number of decimal place values:
+- Get a random percentage below a given `PercentageRange` max limit, rounded (optional) to a max number of decimal place values:
 
 	```swift
 	// setup a range
@@ -228,7 +236,7 @@ Usage is basically the same as a function call:
 
 **Computed Properties**
 
-- Get a random percentage (aka `Double`):
+- Get a random percentage (as `Double`):
 
 	```swift
 	let randomPct: Double = Random.percentage.value
@@ -239,6 +247,7 @@ Note: the following computed properties require configuration to be in place bef
 These will always return 0.0 if:
 
 	- A config has not been set by using a function call
+    
 	- or by directly configuring `Random.percentageRange`.
 
 Usage is basically the same as a function call:
@@ -265,6 +274,16 @@ Usage is basically the same as a function call:
 	let randomPctWithinRange: Double = Random.percentage.withinRange
 	// randomWithinRange == some Int between 0.01 and 0.9, exclusive of 0.9 (so max 0.89)
 	```
+
+### Random Date
+
+#### Random.date
+
+**Functions**
+
+
+**Computed Properties**
+
 
 ## Authors
 

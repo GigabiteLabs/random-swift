@@ -11,7 +11,7 @@ import Foundation
 internal class Language {
     /// An internal var containing all
     internal var words: [String] = ["::error:: words are not enabled in release builds by default"]
-    /// An internal static instance of `Language`
+    /// Internal shared instance of ``Language``.
     internal static let shared = Language()
     /// An internal flag set through `RandomConfig.shared` to
     /// enable / disable Random.word in release builds.

@@ -64,6 +64,17 @@ public class Random {
     public static let int = IntValue()
     /// The shared instance of `PercentageValue`.
     public static let percentage = PercentageValue()
+    ///  A
+    public static let date: RSCalendarDate = RSTime.shared.date
+    /// A configuration object for `random-swift`.
+    public static var config: RandomConfig {
+        get {
+            return RandomConfig.shared
+        }
+        set {
+            RandomConfig.shared = newValue
+        }
+    }
     /// An Int range configuration with upper and lower bounds.
     public static var intRange: IntRange? {
         get {
@@ -80,15 +91,6 @@ public class Random {
         }
         set {
             Random.percentage.range = newValue
-        }
-    }
-    /// A configuration object for `random-swift`.
-    public static var config: RandomConfig {
-        get {
-            return RandomConfig.shared
-        }
-        set {
-            RandomConfig.shared = newValue
         }
     }
     /// A random word from the built-in dictionary of words in macOS.
